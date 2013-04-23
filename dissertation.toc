@@ -1,6 +1,7 @@
 \contentsline {bodychapter}{LIST OF FIGURES}{v}
 \contentsline {bodychapter}{LIST OF TABLES}{vi}
 \contentsline {bodychapter}{\numberline {1}INTRODUCTION}{1}
-\contentsline {bodysubsection}{\numberline {1.0.1}Evaluation of Creativity Support Tools}{1}
+\contentsline {bodysubsection}{\numberline {1.0.1}}{2}
 \contentsline {bodychapter}{\numberline {2}APPENDIX}{3}
+\contentsline {bodychapter}{REFERENCES}{4}
 \contentsfinish 

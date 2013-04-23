@@ -1,40 +1,26 @@
 \bodychapter{INTRODUCTION}
 \label{Intro}
 
-There is a substantial body of work in HCI that guides the evaluation of productivity support tools. Shneiderman compared the growing community of researchers developing and studying creativity support tools to the earlier rise of researchers working on productivity support tools~\cite{Shneiderman:2007wp}. He said that researchers in CSTs are ``moving from the comparatively safe territory of productivity support tools to the more risky frontier of creativity support tools.'' Shneiderman noted that one of the challenges that makes CST research `risky' is that there are no obvious measures of success~\cite{Shneiderman:2007wp}. 
+Creating new types of visualization invariably requires programming.
+Tools like Tableau create visualizations based on data and user input, but are limited to a relatively narrow selection of visualization types.
+Many designers are trying their hands on visualization frameworks like D3.js~\cite{bostock2011d3}, but are not familiar enough with the programming concepts involved to be very effective.
+At the same time, the theory of visual representation has not advanced much since the seminal work by Bertin~\cite{bertin1983semiology} and Mackinlay~\cite{Mackinlay1986}.
+I believe that both problems can be solved by a fresh look at the nature of visual representation in visualization.
 
-\begin{table}[t]
-\centering
-\scriptsize
-\caption[Overview of Creativity Support Tools]{A summary of creativity support tools, including examples from research and industry.}
-\begin{tabular}{|l|l|}
-\hline
-\textbf{Category} & \textbf{Example} \\
-\hline
-Visualization \& Simulation  & Tableau, D3, netLogo \\
-Concept Mapping \& Information Collage & combinFormation, Visio, Omnigraffle \\
-Architectural \& Design & AutoCAD, Rhino3D \\ 
-Mathematics & SPSS, MatLab, WolframAlpha \\
-Software development environments & Eclipse, Visual Studio \\
-Video Editing & Final Cut Pro, iMovie \\
-Drawing/Painting &  Illustrator, InkScape, CorelDraw \\
-Animation & Flash, Maya, SoftImage, Houdini \\
-Music & GarageBand, Zya, Sequel, NodeBeat \\
-Photography & Photoshop, Lightroom \\
-Wikis, Blogs, \& Online Presence  & MediaWiki, WordPress, DreamWeaver \\
-Writing \& Presentation & Google Docs, MS Word, Prezi \\
-\hline
-\end{tabular}
-\label{CSTSummary}
-\end{table}%
+I propose a new model for the representation of data in information visualization: visualization primitives.
+Like graphical primitives, visualization primitives are simple geometrical objects that can be combined into more complex ones.
+In addition to just the graphical component, however, visualization primitives also connect to data and, in turn, produce output data.
+By designing simple prototypes and applying data to them, users can quickly create many different visualizations in a very short time.
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=4in]{images/spectrum.png}
-\caption[Novelty-Impact Space of Creativity]{The creativity literature contains classifications of creative contributions across two dimensions: the Novelty-Impact space. Highly novel contributions are more rare, contributions with minimal novelty are more frequent.}
-\label{NIspace}
-\end{figure}
+The goals of this work are as follows.
+On the theory side, I want to develop a new model of visual data representation.
+I believe that current models that are based on pipelines are too limited and do not adequately define the connection between visual appearance and data.
+On the practical side, I believe that this model will translate into tools that will make it easier for non-technical users~-- such as designers, illustrators, and journalists~-- to create new visualizations from scratch.
+Designers are already accustomed to working with graphical objects, and manually change them to represent data.
+Using visualization primitives, they are now able to design prototypes that automatically and immediately represent the data.
 
-\bodysubsection{Evaluation of Creativity Support Tools}
-\label{CSTEvaluation}
-While there is an extensive history of evaluating creativity, the evaluation of tools to support creativity is a much newer field of study. As previously discussed, Shneiderman noted that the evaluation of creativity support tools is challenging because there are no obvious metrics for researchers to quantify~\cite{Shneiderman:2007wp}. 
+I believe this approach will support creativity in visualization creation.
+The immediacy of the feedback promotes exploration of the visualization design space.
+
+\bodysubsection{}
+\label{}

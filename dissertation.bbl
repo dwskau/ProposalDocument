@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{bertin1983semiology}
+J.~Bertin.
+\newblock {\em {Semiology of graphics}}.
+\newblock University of Wisconsin Press, 1983.
+
+\bibitem{bostock2011d3}
+M.~Bostock, V.~Ogievetsky, and J.~Heer.
+\newblock D$^3$ data-driven documents.
+\newblock {\em Visualization and Computer Graphics, IEEE Transactions on},
+  17(12):2301--2309, 2011.
+
+\bibitem{Mackinlay1986}
+J.~Mackinlay.
+\newblock {Automating the design of graphical presentations of relational
+  information}.
+\newblock {\em ACM Transactions on Graphics (TOG)}, 5(2):110--141, 1986.
+
+\end{thebibliography}

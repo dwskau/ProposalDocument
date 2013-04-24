@@ -2,4 +2,47 @@
 \vspace *{-10pt}
 \ttl@tocsep 
 \vspace *{-10pt}
+\ttl@tocsep 
+\vspace *{-10pt}
+\ttl@tocsep 
+\vspace *{-10pt}
+\ttl@tocsep 
+\vspace *{-10pt}
+\contentsline {figure}{\numberline {1}{\ignorespaces A stacked bar chart and grouped bar chart in our implementation. The data in both is from Anscombe's Quartet\nobreakspace {}\cite {Anscombe1973}. Stacked bars (a) and grouped bars (b) differ only in the mapping of their sides. The numbers are added to indicate mappings, in the interface mouseover provides this information. The red highlights indicate the differences in the mappings between the two charts. \relax }}{17}{figure.caption.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Stacked Bar Chart}}}{17}{figure.caption.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grouped Bar Chart}}}{17}{figure.caption.2}
+\contentsline {figure}{\numberline {2}{\ignorespaces A scatterplot in our implementation using the cars dataset. Miles per gallon is attached to vertical position, weight is attached to horizontal position. Number of cylinders is connected to color. The numbers are added to indicate mappings, in the interface mouseover provides this information. \relax }}{18}{figure.caption.3}
+\contentsline {figure}{\numberline {3}{\ignorespaces A line chart in our implementation is created by turning on a connection between points. The numbers are added to indicate mappings, in the interface mouseover provides this information. \relax }}{19}{figure.caption.4}
+\contentsline {figure}{\numberline {4}{\ignorespaces A heat map of temperature using TMY3 data\nobreakspace {}\cite {wilcox2008users}. The numbers are added to indicate mappings, in the interface mouseover provides this information. \relax }}{20}{figure.caption.5}
+\contentsline {figure}{\numberline {5}{\ignorespaces A waterfall chart showing the lifespans and terms of the presidents of the United States. The numbers are added to indicate mappings, in the interface mouseover provides this information. \relax }}{21}{figure.caption.6}
+\contentsline {figure}{\numberline {6}{\ignorespaces A glyph technique in our implementation using the cars dataset. The technique is similar to the one used in VIE-VISU\nobreakspace {}\cite {Horn1998}. The numbers are added to indicate mappings, in the interface mouseover provides this information. \relax }}{22}{figure.caption.7}
+\ttl@tocsep 
+\vspace *{-10pt}
+\ttl@tocsep 
+\vspace *{-10pt}
+\contentsline {figure}{\numberline {7}{\ignorespaces The bubble chart users were left with after completing the tutorial. \relax }}{27}{figure.caption.8}
+\contentsline {figure}{\numberline {8}{\ignorespaces Histograms of the rankings for each factor (built using the visualization primitives prototype).\relax }}{29}{figure.caption.9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Collaboration}}}{29}{figure.caption.9}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Engagement}}}{29}{figure.caption.9}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Exploration}}}{29}{figure.caption.9}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Expressiveness}}}{29}{figure.caption.9}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Effort/Reward}}}{29}{figure.caption.9}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Tool Transparency}}}{29}{figure.caption.9}
+\contentsline {figure}{\numberline {9}{\ignorespaces A selection of example visualizations submitted by study participants.\relax }}{30}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{30}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{30}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{30}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{30}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{30}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{30}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {By the same participant as \ref {fig:gallery1}.}}}{30}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {By the same participant as \ref {fig:gallery2}.}}}{30}{figure.caption.11}
+\ttl@tocsep 
+\vspace *{-10pt}
+\ttl@tocsep 
+\vspace *{-10pt}
+\ttl@tocsep 
+\vspace *{-10pt}
+\ttl@tocsep 
+\vspace *{-10pt}
 \contentsfinish 

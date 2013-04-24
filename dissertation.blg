@@ -2,46 +2,44 @@ This is BibTeX, Version 0.99c (TeX Live 2009)
 The top-level auxiliary file: dissertation.aux
 The style file: abbrv.bst
 Database file #1: dissertation.bib
-Warning--I didn't find a database entry for "Shneiderman:2007wp"
-You've used 3 entries,
+You've used 32 entries,
             2118 wiz_defined-function locations,
-            520 strings with 4175 characters,
-and the built_in function-call counts, 914 in all, are:
-= -- 90
-> -- 32
-< -- 0
-+ -- 13
-- -- 10
-* -- 65
-:= -- 159
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 13
+            701 strings with 8700 characters,
+and the built_in function-call counts, 10766 in all, are:
+= -- 1092
+> -- 447
+< -- 8
++ -- 178
+- -- 145
+* -- 736
+:= -- 1761
+add.period$ -- 100
+call.type$ -- 32
+change.case$ -- 166
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 34
-empty$ -- 79
-format.name$ -- 10
-if$ -- 185
+cite$ -- 32
+duplicate$ -- 413
+empty$ -- 876
+format.name$ -- 145
+if$ -- 2272
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 4
-newline$ -- 18
-num.names$ -- 6
-pop$ -- 14
+int.to.str$ -- 32
+missing$ -- 31
+newline$ -- 163
+num.names$ -- 66
+pop$ -- 172
 preamble$ -- 1
-purify$ -- 11
+purify$ -- 136
 quote$ -- 0
-skip$ -- 20
+skip$ -- 299
 stack$ -- 0
-substring$ -- 71
-swap$ -- 3
-text.length$ -- 0
+substring$ -- 741
+swap$ -- 91
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 10
+type$ -- 122
 warning$ -- 0
-while$ -- 10
-width$ -- 4
-write$ -- 34
-(There was 1 warning)
+while$ -- 116
+width$ -- 34
+write$ -- 351

@@ -6,6 +6,26 @@
 \usepackage{packages/thesis}
 % This line makes sure that single-line captions won't automatically center. 
 \usepackage{caption} % Should this move to unccspecs.sty?
+
+%packages Drew added
+\usepackage{mathptmx}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage[bookmarks,backref=true,linkcolor=black]{hyperref} %,colorlinks
+\hypersetup{
+  pdfauthor = {},
+  pdftitle = {},
+  pdfsubject = {},
+  pdfkeywords = {},
+  colorlinks=true,
+  linkcolor= black,
+  citecolor= black,
+  pageanchor=true,
+  urlcolor = black,
+  plainpages = false,
+  linktocpage
+}
+
 \captionsetup{singlelinecheck=false}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -139,8 +159,16 @@ Visualizations are typically created using a pipeline approach that relies on pr
 % Sections can be labeled \label{Introduction}
 
 \input{chapters/chapter1.tex}
+\input{chapters/chapter2.tex}
+\input{chapters/chapter3.tex}
+\input{chapters/chapter4.tex}
+\input{chapters/chapter5.tex}
+\input{chapters/chapter6.tex}
+\input{chapters/chapter7.tex}
+\input{chapters/chapter8.tex}
+\input{chapters/chapter9.tex}
+\input{chapters/chapter10.tex}
 \input{chapters/appendix.tex}
-%\input{chapters/Chapter6.tex}
 
 
 \startbib

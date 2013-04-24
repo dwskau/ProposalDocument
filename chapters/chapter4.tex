@@ -1,0 +1,131 @@
+\bodychapter{MODEL}
+\label{model}
+
+We propose that a complete set of visualization primitives along with an appropriate set of visual properties will cover the possible visualization design space for tabular data.
+Visualization primitives allow for the creation of prototype objects that are instantiated for data points.
+
+Visualization primitives uses a familiar concept from object-oriented programming; prototypes and instances~\cite{Taivalsaari1997}.
+Prototypes contain the essential information about themselves.
+They are the blueprint that allow copies to be created.
+Prototypes in the visualization primitives model know what data they get mapped to, as well as some internal geometric relationships.
+A designer creates prototype primitives, and assigns values to their properties, to generate a visualization.
+Instances are the objects in a visualization; the specifications of an instance come from the prototype and work together with the data to create the form of the visualization.
+
+\bodysubsection{Prototypes}
+\label{prototypes}
+
+The concept of visualization primitives is built on a system of primitive shapes and their visual properties.
+The shapes correspond to commonly used components of a visualization, and their properties correspond to commonly used visual properties.
+
+
+%as a first set of primitives we covered...
+There is no optimal set of primitives because the goals of different implementations may be different.
+It is possible to have an optimal set of primitives for a given set of goals.
+One danger in implementing the model is having too much or too little complexity in a primitive.
+The key is to balance the complexity of the primitives with the capabilities it provides.
+
+As a first pass, we covered five different primitives to explore the model.
+It should be noted that our set is not necessarily complete.
+For example, the line primitive in our implementation does not include assignments for endpoints.
+This would greatly increase the complexity of the internal geometric representation for lines, but adding this property in the future would make parallel coordinates, and perhaps other visualizations, simple to create.
+
+\bodysubsection{Visual Properties}
+\label{visualProperties}
+
+Data is represented through visual (or Bertin's \textit{retinal}) properties of the object.
+The visual properties of a primitive are what defines the capabilities it has.
+Providing properties that closely align with the affordances of the visual object creates the most useful set of primitives.
+For example, a circle's size could be defined by a width, however it would be more useful to provide properties for area, radius, and circumference.
+These properties can encourage best practice in producing visualizations, simply by exposing the appropriate visual variables.
+To continue with the circle example, assigning quantity to radius creates a quadratic increase in area (a poor representation for human perception).
+But assigning that same quantity to area creates a linear increase, so the resulting visualization is perceived correctly.
+
+In order to provide appropriate properties, each primitive must have internal geometric relationships.
+To continue with the circle example, the area, radius, and circumference properties are all interconnected.
+From any one of these properties, a circle's size can be calculated for drawing to screen.
+In addition, assigning one of the properties enables the calculation of the others.
+This supplies the user with an output data source that describes the existing objects.
+That data source can be used as input data for other objects.
+
+\bodysubsubsection{Internal Geometric Relationships}
+\label{internalGeometricRelationships}
+
+Many visualization primitives have these internal geometric relationships between their properties.
+Embedding relationships into the software's representation of them lets the user take advantage of them when building the visual structure of their visualization.
+For example, this system makes it trivial to connect the left side of one rectangle to the right side of another.
+
+These geometric relationships also mean that every primitive has a different set of properties.
+The differing properties help to determine what each primitive will be good at in a visualization.
+This is why we recommend that other implementations of the system take care that the properties be closely aligned with the affordances of the visual objects.
+The designer decides what data is mapped to what property, but the creator of the system decides what properties are available.
+
+\bodysubsection{Iteration}
+\label{iteration}
+
+We want the user to design a prototype object, not an algorithm.
+The visualization designer defines the loop once, and this creates each primitive seen in the visualization.
+When a user designs a loop, they are thinking about a data path or algorithm that gets the data to the final destination, but we want the user to be able to design an object.
+In visualization primitives we use implicit loops to allow the user to design a prototype object instead of a pipeline.
+
+This iteration is built into the primitives and repeats for every item of data.
+The scaling and internal geometric relationships are calculated during the iteration, and the resulting data is stored in the primitive.
+Implicit iteration along with mappings are the key to allowing an object-oriented prototype design strategy.
+Together they turn a prototype primitive into the repeated instances of primitives in the visualization.
+
+\bodysubsection{Data}
+\label{data}
+
+Since iteration handles the assignment of the individual data values to each instance, in the interface for the user, our data can be reduced to fields.
+But not all data used in a visualization comes from the original data source.
+
+Algorithmic approaches to generating visualizations often have hardcoded values, or sequences of values generated during the drawing process.
+We call these values administrative data because they set a size for line weights, or provide position information for bars in a bar chart.
+Visualization primitives do not use an algorithmic approach, but this administrative data is still necessary to produce a visualization.
+Our implementation calculates administrative data during the time of data import and provides it as a data source just like the actual data dimensions.
+
+\bodysubsubsection{Mappings}
+\label{mappings}
+
+Since instances of the primitive in the visualization are not designed individually, it is necessary for there to be a way to abstractly assign data to a prototype primitive's properties.
+Mappings provide this abstract connection.
+Each property knows its data source, and a scaling factor.
+The primitive uses this information in the generation of its own data.
+
+\bodysubsubsection{Connections}
+\label{connections}
+
+Since primitives store their own sets of data, they can also be used as sources of data.
+Having output data is important for being able to build relationships between multiple primitives.
+Creating any sort of glyph-based visualization requires that their be relationships between the multiple objects.
+
+The data primitives store has often been processed, either through scaling, or through the primitive's internal geometric relationships.
+Using data from a primitive provides a simple way to make meaningful spatial relationships between two different primitives.
+An example use case of this would be VIE-VISU, a glyph visualization using small multiples to represent data over time~\cite{Horn1998}.
+VIE-VISU shows up to twelve dimensions simultaneously in one graphic, with a thirteenth dimension of time represented by each multiple of the graphic.
+The primitives within the multiples have the same spatial relationships in each multiple.
+An example of this technique implemented in our system can be seen in Figure~\ref{fig:cars}.
+Output data from each primitive provides a way to create the spatial relationships.
+Connecting the data of one primitive to another sets up a parent-child relationship between primitives.
+This allows the child to refer to the parent's data in order to generate its own data.
+
+In some interface implementations, it is conceivable that this connection could be accomplished based on the spatial relationships between prototypes.
+For example, placing the left side of one prototype next to the right side of another prototype could trigger a connection between the respective data and property of the primitives.
+This method of defining connections only works for spatial relationships. Relationships between color, or other more abstract spatial properties (area for example) would have to be defined some other way.
+
+\bodysubsection{Axes and Layout}
+\label{axesLayout}
+
+Spatial layout is an important aspect of visualization design.
+Administrative data are the most common sources of data that influences layout.
+For example, in a bar chart the data mapped to the vertical size of the bars can only be scaled.
+This only impacts the height of the bars, but their horizontal positions come from a sequence, and their vertical position comes from a constant.
+The majority of the layout control comes from the step size in the sequence, and the constant mapped to bar width.
+
+Axes are not in our current implementation (axes weren't critical for testing creativity), but an axis primitive could provide the labeling necessary.
+Its properties would include the label data source, direction, size, etc.
+The type of axis could also be driven by a property, switching between a spatial axes or color scale.
+The actual labeling could be automatically handled using the extension of Wilkinson's Algorithm by Talbot et al.~\cite{Talbot2010}
+
+Axes are less of an issue for glyphs; the size and position of the objects is entirely relative, there is no axis to compare the spatial dimensions to.
+In the case of multiple views (small multiples, trellis displays) that have axes in common, scales exchange information so they can use the same transforms.
+This exchange is possible using the output data from each primitive to create connections between the axes present in a visualization.

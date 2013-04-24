@@ -1,0 +1,64 @@
+\bodychapter{RELATED WORK}
+\label{relatedWork}
+Visualization primitives build on existing work on the theory of visualization, in particular Bertin's ideas and glyphs. We also consider them a tool, in particular one that is closely built on theory, like Protovis or D3. Finally, our goal is to encourage creative work with visualization, which requires ways of measuring creativity.
+
+\bodysubsection{Theory}
+\label{theory}
+
+Information visualization is mostly understood as the visualization of discrete data points~\cite{tory2004rethinking}.
+Each data point is represented by a visual \textit{mark}, according to Bertin's highly influential work from the 1960s~\cite{bertin1983semiology}.
+Bertin defined marks as graphical objects with visual (or \textit{retinal}) properties.
+
+Mackinlay's APT system~\cite{Mackinlay1986} was directly based on Bertin's work, and the first one to create tailored visualizations for a dataset.
+APT's goal was the automatic generation of the visualization, however, not supporting the user's creativity.
+SAGE~\cite{Roth:CHI:1994} provided similar functionality, but also primarily oriented at data rather than visual design.
+Tableau~\cite{stolte2002polaris}, which is partly based on the ideas behind APT, goes in a similar direction, though the user can construct visualizations from scratch.
+Tableau's expressive power is  limited to a relatively small number of plot types, however.
+We want the user to be able to create entirely new types of visualizations quickly and easily.
+
+Card and Mackinlay developed a notation for analyzing the visual mappings used in visualizations~\cite{Card1997}.
+Their goal was to connect point designs into a coherent design space, which then could be explored more effectively.
+However, their system is mostly analytical, not constructive: changes in the analysis do not translate back into novel visualization designs.
+
+The Grammar of Graphics~\cite{Wickham:JCGS:2010,Wilkinson2005c} describes a way of defining almost any visualization imaginable, but from a mathematical and computational perspective that does not necessarily match up with practical visualization creation or best practice.
+For example, the idea that a pie chart is nothing but a stacked bar chart that has been transformed into polar coordinates may be a correct mathematical explanation, but we argue that few non-technical users would even understand this; much less construct a pie chart this way.
+
+Visualization primitives are an extension of glyphs~\cite{anderson1957semigraphical}, which are graphical objects whose properties (lengths of parts, angles, colors) represent data.
+Glyphs are typically used to show small numbers of high-dimensional data points, but we argue that the idea can be applied in a much more general way.
+Tools for constructing glyphs~\cite{ribarsky1994glyphmaker} have been proposed, but tend to be driven by form-based interfaces and limited in the scope of available properties and ways of combining them into more complex (and ``traditional'') visualizations.
+
+\bodysubsection{Tools}
+\label{tools}
+
+Visualization toolkits like prefuse~\cite{heer2005prefuse}, Protovis~\cite{bostock2009Protovis}, and D3.js~\cite{bostock2011d3} put many of Bertin's and Wilkinson's ideas into practice, and make it possible to create a wide variety of visualizations, including entirely new ones.
+While they elegantly abstract away many common tasks, they do require considerable programming knowledge, however.
+This is a major hurdle for many potential users of such tools, like journalists and designers.
+
+Other tools that do not require actual programing, like Quadrigram~\cite{url:quadrigram,Ortiz2010} and DEFOG~\cite{Lins:TR:2011}, are still strongly influenced by computing constructs.
+Building a visualization using Quadrigram's data flow paradigm requires many steps that are effectively function calls, and are based on typical operations available in programming languages.
+DEFOG is also driven by data rather than the visual representation; that is a useful property for a data analysis tool, but it does not help designers construct new and interesting visualizations.
+
+Several systems infer visualizations from hand drawn sketches, or abstractly created objects.
+NapkinVis~\cite{Chao2010} infers a common visualization type and uses Protovis to draw the resulting charts.
+CavePainting Visualizations by Keefe et al.~\cite{Keefe-2008-SSF} shows the value of having non-technical users involved in the visualization creation process, and explores how creativity can improve resulting visualizations.
+Brett Victor has been developing a system for Drawing Dynamic Visualizations~\cite{url:drawingDynamic} that appears to infer data connections from the structure of what has been drawn.
+These systems rely on expertise of technical users to create the actual visualizations by embedding it into the system, and by relying on known techniques.
+
+\bodysubsection{Creativity Support}
+\label{creativitySupport}
+
+There has not been a wide array of work exploring creativity in the field of data visualization, however some work does still involve creativity.
+Lee et al.~\cite{lee2012beyond} have done some work investigating interaction with visualizations beyond keyboard and mouse.
+Their design considerations very closely parallel design guidelines for supporting creativity.
+Other significant work by Walny et al.~\cite{walny2011visual} explores visualization creation on whiteboards.
+The study never explicitly investigates creativity, but the whiteboard format is relatively open ended, free-form, and collaborative, and the visualizations generated during the study are clearly creative.
+CavePainting~\cite{Keefe-2008-SSF} intentionally incorporates creative users as a means to explore creative techniques applied to scientific visualization creation.
+None of this work directly evaluates or explores creativity.
+
+As creativity is a difficult concept to define, quantitatively evaluating creativity is also a difficult task.
+Evaluating a tool's support of creativity is somewhat easier, as it does not depend on the abilities or mental state of the user, only on the capabilities of the tool.
+The Creativity Support Index (CSI)~\cite{carroll2009creativity} provides a system for measuring a tool's ability to support creativity.
+It uses a set of six factors, ranked with Likert scales, followed by a set of fifteen ranked pairs to prioritize the factors.
+The results of the index are a value out of 100, with 100 supporting creativity perfectly.
+\bodysubsection{}
+\label{}

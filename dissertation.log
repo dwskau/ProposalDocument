@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  23 APR 2013 13:47
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  24 APR 2013 14:03
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -351,94 +351,782 @@ Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
 )
 \c@ContinuedFloat=\count130
 )
-(./dissertation.aux)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup6
+\symitalic=\mathgroup7
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip50
+\subfigcapskip=\skip51
+\subfigcaptopadj=\dimen140
+\subfigbottomskip=\skip52
+\subfigcapmargin=\dimen141
+\subfiglabelskip=\skip53
+\c@subfigure=\count131
+\c@lofdepth=\count132
+\c@subtable=\count133
+\c@lotdepth=\count134
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2009/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip54
+\subfig@bottom=\skip55
+)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
+
+(/usr/local/texlive/2009/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2009/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
+O)
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/10/02 xcolor patch
+))
+\@linkdim=\dimen142
+\Hy@linkcounter=\count135
+\Hy@pagecounter=\count136
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2009/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+(/usr/local/texlive/2009/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+))
+Package hyperref Info: Option `bookmarks' set `true' on input line 2864.
+
+
+Package hyperref Warning: Unexpected value `true'
+(hyperref)                of option `backref' instead of
+(hyperref)                `section', `slide', `page', `none',
+(hyperref)                or `false' on input line 2864.
+
+Package hyperref Info: Hyper figures OFF on input line 2975.
+Package hyperref Info: Link nesting OFF on input line 2980.
+Package hyperref Info: Hyper index ON on input line 2983.
+Package hyperref Info: Plain pages OFF on input line 2990.
+Package hyperref Info: Backreferencing OFF on input line 2995.
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3191.
+(/usr/local/texlive/2009/texmf-dist/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3428.
+
+(/usr/local/texlive/2009/texmf-dist/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(/usr/local/texlive/2009/texmf-dist/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(/usr/local/texlive/2009/texmf-dist/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+))
+\Fld@menulength=\count137
+\Field@Width=\dimen143
+\Fld@charsize=\dimen144
+\Field@toks=\toks33
+Package hyperref Info: Hyper figures OFF on input line 4377.
+Package hyperref Info: Link nesting OFF on input line 4382.
+Package hyperref Info: Hyper index ON on input line 4385.
+Package hyperref Info: backreferencing OFF on input line 4392.
+Package hyperref Info: Link coloring OFF on input line 4397.
+Package hyperref Info: Link coloring with OCG OFF on input line 4402.
+Package hyperref Info: PDF/A mode OFF on input line 4407.
+
+(/usr/local/texlive/2009/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count138
+\c@Item=\count139
+\c@Hfootnote=\count140
+)
+*hyperref using default driver hpdftex*
+(/usr/local/texlive/2009/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
+\Fld@listcount=\count141
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 27.
+Package hyperref Info: Option `pageanchor' set `true' on input line 27.
+Package hyperref Info: Option `plainpages' set `false' on input line 27.
+Package hyperref Info: Option `linktocpage' set `true' on input line 27.
+
+(./dissertation.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `discussion' multiply defined.
+
+)
 \openout1 = `dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 95.
+ (/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
 (/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count131
-\scratchdimen=\dimen140
+\scratchcounter=\count142
+\scratchdimen=\dimen145
 \scratchbox=\box35
-\nofMPsegments=\count132
-\nofMParguments=\count133
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count134
-\MPscratchDim=\dimen141
-\MPnumerator=\count135
-\everyMPtoPDFconversion=\toks34
+\nofMPsegments=\count143
+\nofMParguments=\count144
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count145
+\MPscratchDim=\dimen146
+\MPnumerator=\count146
+\everyMPtoPDFconversion=\toks35
 )
 Preview: Fontsize 12pt
 Preview: PDFoutput 1
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 116.
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 116.
+Package hyperref Info: Link coloring ON on input line 95.
+(/usr/local/texlive/2009/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [1
+(/usr/local/texlive/2009/texmf-dist/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count147
+)
+LaTeX Info: Redefining \ref on input line 95.
+LaTeX Info: Redefining \pageref on input line 95.
+
+(./dissertation.out) (./dissertation.out)
+\@outlinefile=\write4
+\openout4 = `dissertation.out'.
+
+\AtBeginShipoutBox=\box36
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 13
+6.
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 13
+6.
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 13
+6.
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 13
+6.
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
+ [1
 
 {/usr/local/texlive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 118.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 138.
 
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+(/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 118.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 138.
  [2] [3]
-(./dissertation.toc)
-\tf@toc=\write4
-\openout4 = `dissertation.toc'.
+(./dissertation.toc [4])
+\tf@toc=\write5
+\openout5 = `dissertation.toc'.
 
- [4] (./dissertation.lof)
-\tf@lof=\write5
-\openout5 = `dissertation.lof'.
+ [5]
 
- [5] (./dissertation.lot)
-\tf@lot=\write6
-\openout6 = `dissertation.lot'.
+Package hyperref Warning: No destination for bookmark of \addcontentsline,
+(hyperref)                destination is added on input line 149.
 
- [6]
-(./chapters/chapter1.tex [1
 
-]) (./chapters/appendix.tex [2]) [3
+Package hyperref Warning: bookmark level for unknown bodychapter defaults to 0.
+
+
+(./dissertation.lof [6])
+\tf@lof=\write6
+\openout6 = `dissertation.lof'.
+
+ [7] (./dissertation.lot)
+\tf@lot=\write7
+\openout7 = `dissertation.lot'.
+
+ [8] (./chapters/chapter1.tex
+[1
+
+]) (./chapters/chapter2.tex [2]
+
+Package hyperref Warning: bookmark level for unknown bodysubsection defaults to
+ 0.
+
+
+Overfull \hbox (24.31673pt too wide) in paragraph at lines 8--11
+[]\OT1/ptm/m/n/12 Information vi-su-al-iza-tion is mostly un-der-stood as the v
+i-su-al-iza-tion of dis-crete data points [[]].
+ []
+
+[3
+
+] [4] [5]) (./chapters/chapter3.tex [6]pdfTeX warning (ext4): destination with 
+the same identifier (name{bodysubsection.1}) has been already used, duplicate i
+gnored
+<to be read again> 
+                   \relax 
+l.7 ...ection{The Information Visualization Model}
+                                                   [7
+
+]pdfTeX warning (ext4): destination with the same identifier (name{bodysubsecti
+on.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 \bodysubsection{Cognitive Models}
+                                       [8]pdfTeX warning (ext4): destination wi
+th the same identifier (name{bodysubsection.3}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.44 \bodysubsection{}
+                      ) (./chapters/chapter4.tex [9]pdfTeX warning (ext4): dest
+ination with the same identifier (name{bodysubsection.1}) has been already used
+, duplicate ignored
+<to be read again> 
+                   \relax 
+l.14 \bodysubsection{Prototypes}
+                                 [10
+
+]pdfTeX warning (ext4): destination with the same identifier (name{bodysubsecti
+on.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 \bodysubsection{Visual Properties}
+                                        [11]
+
+Package hyperref Warning: bookmark level for unknown bodysubsubsection defaults
+ to 0.
+
+pdfTeX warning (ext4): destination with the same identifier (name{bodysubsectio
+n.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.62 \bodysubsection{Iteration}
+                                [12]pdfTeX warning (ext4): destination with the
+ same identifier (name{bodysubsection.4}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.75 \bodysubsection{Data}
+                          pdfTeX warning (ext4): destination with the same iden
+tifier (name{bodysubsubsection.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.86 \bodysubsubsection{Mappings}
+                                  [13] [14]) (./chapters/chapter5.tex [15]pdfTe
+X warning (ext4): destination with the same identifier (name{bodysubsection.1})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.9 \bodysubsection{Bar Chart}
+                               [16
 
 ]
-(./dissertation.bbl) [4] (./dissertation.aux) ) 
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/stackedBar.pdf): PDF inclus
+ion: found PDF version <1.5>, but at most version <1.4> allowed
+<images/stackedBar.pdf, id=389, 491.8375pt x 468.75125pt>
+File: images/stackedBar.pdf Graphic file (type pdf)
+
+<use images/stackedBar.pdf>
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/groupedBar.pdf): PDF inclus
+ion: found PDF version <1.5>, but at most version <1.4> allowed
+<images/groupedBar.pdf, id=391, 491.8375pt x 468.75125pt>
+File: images/groupedBar.pdf Graphic file (type pdf)
+
+<use images/groupedBar.pdf>pdfTeX warning (ext4): destination with the same ide
+ntifier (name{bodysubsection.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47 \bodysubsection{Scatterplot}
+                                  [17 <./images/stackedBar.pdf> <./images/group
+edBar.pdf>]
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/scatterplot.pdf): PDF inclu
+sion: found PDF version <1.5>, but at most version <1.4> allowed
+<images/scatterplot.pdf, id=924, 1084.68237pt x 266.1443pt>
+File: images/scatterplot.pdf Graphic file (type pdf)
+
+<use images/scatterplot.pdf>pdfTeX warning (ext4): destination with the same id
+entifier (name{bodysubsection.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.73 \bodysubsection{Line Chart}
+                                 [18 <./images/scatterplot.pdf>]
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/lineChart.pdf): PDF inclusi
+on: found PDF version <1.5>, but at most version <1.4> allowed
+<images/lineChart.pdf, id=1837, 1084.68237pt x 266.1443pt>
+File: images/lineChart.pdf Graphic file (type pdf)
+
+<use images/lineChart.pdf>pdfTeX warning (ext4): destination with the same iden
+tifier (name{bodysubsection.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.105 \bodysubsection{Heat Maps}
+                                
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/heatMap.pdf): PDF inclusion
+: found PDF version <1.5>, but at most version <1.4> allowed
+<images/heatMap.pdf, id=1841, 650.43pt x 670.505pt>
+File: images/heatMap.pdf Graphic file (type pdf)
+ <use images/heatMap.pdf>pdfTeX warning (ext4): destination with the same ident
+ifier (name{bodysubsection.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.124 \bodysubsection{Waterfall Chart}
+                                      
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/presidents.pdf): PDF inclus
+ion: found PDF version <1.5>, but at most version <1.4> allowed
+<images/presidents.pdf, id=1845, 1245.00128pt x 736.7525pt>
+File: images/presidents.pdf Graphic file (type pdf)
+
+<use images/presidents.pdf> [19 <./images/lineChart.pdf>] [20 <./images/heatMap
+.pdf>]
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/cars.pdf): PDF inclusion: f
+ound PDF version <1.5>, but at most version <1.4> allowed
+<images/cars.pdf, id=19761, 672.80559pt x 754.82pt>
+File: images/cars.pdf Graphic file (type pdf)
+ <use images/cars.pdf>)
+(./chapters/chapter6.tex [21 <./images/presidents.pdf>] [22 <./images/cars.pdf>
+]
+Missing character: There is no Õ in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Õ in font ptmr7t!
+) (./chapters/chapter7.tex [23
+
+] [24]pdfTeX warning (ext4): destination with the same identifier (name{bodysub
+section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.13 \bodysubsection{Materials}
+                               
+Overfull \hbox (28.28806pt too wide) in paragraph at lines 17--18
+[]\OT1/ptm/m/n/12 The ma-te-ri-als used in this ex-per-i-ment con-sist of three
+ main el-e-ments: the dataset, visualization-
+ []
+
+[25
+
+]pdfTeX warning (ext4): destination with the same identifier (name{bodysubsecti
+on.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 \bodysubsection{Procedure}
+                               
+Overfull \hbox (77.51509pt too wide) in paragraph at lines 35--38
+[]\OT1/ptm/m/n/12 Participants were re-cruited via ad-ver-tis-ing on Twit-ter t
+o the URL [][]$\OT1/cmtt/m/n/12 http : / / visualizationprimitives .
+ []
+
+[26]
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/tutorialChart.pdf): PDF inc
+lusion: found PDF version <1.5>, but at most version <1.4> allowed
+<images/tutorialChart.pdf, id=20806, 432.02303pt x 11.32652pt>
+File: images/tutorialChart.pdf Graphic file (type pdf)
+
+<use images/tutorialChart.pdf>pdfTeX warning (ext4): destination with the same 
+identifier (name{bodysubsection.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.60 \bodysubsection{Results}
+                              [27 <./images/tutorialChart.pdf>]
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/collaboration.pd
+f): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<images/histograms/collaboration.pdf, id=20898, 250.43562pt x 264.98898pt>
+File: images/histograms/collaboration.pdf Graphic file (type pdf)
+
+<use images/histograms/collaboration.pdf>
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/engagement.pdf):
+ PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<images/histograms/engagement.pdf, id=20900, 250.43562pt x 264.98898pt>
+File: images/histograms/engagement.pdf Graphic file (type pdf)
+
+<use images/histograms/engagement.pdf>
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/exploration.pdf)
+: PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<images/histograms/exploration.pdf, id=20902, 250.43562pt x 264.98898pt>
+File: images/histograms/exploration.pdf Graphic file (type pdf)
+
+<use images/histograms/exploration.pdf>
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/expressiveness.p
+df): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<images/histograms/expressiveness.pdf, id=20904, 250.43562pt x 264.98898pt>
+File: images/histograms/expressiveness.pdf Graphic file (type pdf)
+
+<use images/histograms/expressiveness.pdf>
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/tradeoff.pdf): P
+DF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<images/histograms/tradeoff.pdf, id=20906, 250.43562pt x 264.98898pt>
+File: images/histograms/tradeoff.pdf Graphic file (type pdf)
+
+<use images/histograms/tradeoff.pdf>
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/transparency.pdf
+): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<images/histograms/transparency.pdf, id=20908, 250.43562pt x 264.98898pt>
+File: images/histograms/transparency.pdf Graphic file (type pdf)
+
+<use images/histograms/transparency.pdf>pdfTeX warning (ext4): destination with
+ the same identifier (name{bodysubsubsection.1}) has been already used, duplica
+te ignored
+<to be read again> 
+                   \relax 
+l.122 ...ection{Experience and Creativity Support}
+                                                  
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+Missing character: There is no Ê in font ptmr7t!
+
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-lCMWzs3C-77-aut
+o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
+wed
+
+<images/gallery/svg-lCMWzs3C-77-auto2.pdf, id=20912, 581.22847pt x 414.30583pt>
+File: images/gallery/svg-lCMWzs3C-77-auto2.pdf Graphic file (type pdf)
+<use images/gallery/svg-lCMWzs3C-77-auto2.pdf>
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-iBaorUUg-69-aut
+o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
+wed
+
+<images/gallery/svg-iBaorUUg-69-auto2.pdf, id=20914, 105.95886pt x 99.93295pt>
+File: images/gallery/svg-iBaorUUg-69-auto2.pdf Graphic file (type pdf)
+
+<use images/gallery/svg-iBaorUUg-69-auto2.pdf>
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-HKI5oDTV-30-aut
+o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
+wed
+
+<images/gallery/svg-HKI5oDTV-30-auto2.pdf, id=20916, 445.00754pt x 115.51758pt>
+File: images/gallery/svg-HKI5oDTV-30-auto2.pdf Graphic file (type pdf)
+<use images/gallery/svg-HKI5oDTV-30-auto2.pdf>
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-kJfnjNbc-4-auto
+2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
+ed
+<images/gallery/svg-kJfnjNbc-4-auto2.pdf, id=20918, 669.4009pt x 54.23532pt>
+File: images/gallery/svg-kJfnjNbc-4-auto2.pdf Graphic file (type pdf)
+
+<use images/gallery/svg-kJfnjNbc-4-auto2.pdf>
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-lCMWzs3C-26-aut
+o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
+wed
+
+<images/gallery/svg-lCMWzs3C-26-auto2.pdf, id=20920, 512.36116pt x 71.45245pt>
+File: images/gallery/svg-lCMWzs3C-26-auto2.pdf Graphic file (type pdf)
+
+<use images/gallery/svg-lCMWzs3C-26-auto2.pdf>
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-UBDlMBE2-29-aut
+o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
+wed
+
+<images/gallery/svg-UBDlMBE2-29-auto2.pdf, id=20922, 585.06078pt x 137.05405pt>
+File: images/gallery/svg-UBDlMBE2-29-auto2.pdf Graphic file (type pdf)
+<use images/gallery/svg-UBDlMBE2-29-auto2.pdf>
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-47GM6Lk3-87-aut
+o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
+wed
+
+<images/gallery/svg-47GM6Lk3-87-auto2.pdf, id=20924, 441.40108pt x 532.2595pt>
+File: images/gallery/svg-47GM6Lk3-87-auto2.pdf Graphic file (type pdf)
+
+<use images/gallery/svg-47GM6Lk3-87-auto2.pdf>
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-47GM6Lk3-61-aut
+o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
+wed
+
+<images/gallery/svg-47GM6Lk3-61-auto2.pdf, id=20927, 402.71153pt x 531.67334pt>
+File: images/gallery/svg-47GM6Lk3-61-auto2.pdf Graphic file (type pdf)
+<use images/gallery/svg-47GM6Lk3-61-auto2.pdf> [28]pdfTeX warning (ext4): desti
+nation with the same identifier (name{bodysubsubsection.2}) has been already us
+ed, duplicate ignored
+<to be read again> 
+                   \relax 
+l.191 ...ubsubsection{Experience and Productivity}
+                                                   [29 <./images/histograms/col
+laboration.pdf> <./images/histograms/engagement.pdf> <./images/histograms/explo
+ration.pdf> <./images/histograms/expressiveness.pdf> <./images/histograms/trade
+off.pdf> <./images/histograms/transparency.pdf>] [30 <./images/gallery/svg-lCMW
+zs3C-77-auto2.pdf> <./images/gallery/svg-iBaorUUg-69-auto2.pdf> <./images/galle
+ry/svg-HKI5oDTV-30-auto2.pdf> <./images/gallery/svg-kJfnjNbc-4-auto2.pdf> <./im
+ages/gallery/svg-lCMWzs3C-26-auto2.pdf> <./images/gallery/svg-UBDlMBE2-29-auto2
+.pdf> <./images/gallery/svg-47GM6Lk3-87-auto2.pdf> <./images/gallery/svg-47GM6L
+k3-61-auto2.pdf>]) (./chapters/chapter8.tex [31] [32]) (./chapters/chapter9.tex
+[33
+
+] [34]) (./chapters/chapter10.tex [35
+
+] [36]) (./chapters/appendix.tex
+[37
+
+]) [38
+
+] (./dissertation.bbl [39]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--157
+[]\OT1/ptm/m/n/12 B. Vic-tor.  Draw-ing Dy-namic Vi-su-al-iza-tions.
+ []
+
+[40]) [41] (./dissertation.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 6164 strings out of 493848
- 84173 string characters out of 3149207
- 183478 words of memory out of 3000000
- 9300 multiletter control sequences out of 15000+200000
- 8984 words of font info for 34 fonts, out of 3000000 for 9000
+ 9845 strings out of 493848
+ 142298 string characters out of 3149207
+ 253479 words of memory out of 3000000
+ 12712 multiletter control sequences out of 15000+200000
+ 21619 words of font info for 54 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 53i,5n,92p,583b,232s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2009/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2009/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2009/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2009/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on dissertation.pdf (10 pages, 60206 bytes).
+ 53i,8n,92p,583b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2009/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texliv
+e/2009/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/tex
+mf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on dissertation.pdf (49 pages, 8972455 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23269 PDF objects out of 26593 (max. 8388607)
+ 130 named destinations out of 1000 (max. 500000)
+ 447 words of extra memory for PDF output out of 10000 (max. 10000000)
 

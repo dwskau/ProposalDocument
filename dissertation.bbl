@@ -1,9 +1,31 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{anderson1957semigraphical}
+E.~Anderson.
+\newblock {A Semigraphical Method for the Analysis of Complex Problems}.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 43(10):923--927, 1957.
+
+\bibitem{Anscombe1973}
+F.~Anscombe.
+\newblock {Graphs in Statistical Analysis}.
+\newblock {\em The American Statistician}, 27(1):17--21, 1973.
 
 \bibitem{bertin1983semiology}
 J.~Bertin.
 \newblock {\em {Semiology of graphics}}.
 \newblock University of Wisconsin Press, 1983.
+
+\bibitem{url:quadrigram}
+Bestiario.
+\newblock {Quadrigram}.
+\newblock http://www.quadrigram.com/.
+
+\bibitem{bostock2009Protovis}
+M.~Bostock and J.~Heer.
+\newblock {Protovis: A Graphical Toolkit for Visualization}.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  15(6):1121--1128, 2009.
 
 \bibitem{bostock2011d3}
 M.~Bostock, V.~Ogievetsky, and J.~Heer.
@@ -11,10 +33,154 @@ M.~Bostock, V.~Ogievetsky, and J.~Heer.
 \newblock {\em Visualization and Computer Graphics, IEEE Transactions on},
   17(12):2301--2309, 2011.
 
+\bibitem{Card1997}
+S.~Card and J.~Mackinlay.
+\newblock {The Structure of the Information Visualization Design Space}.
+\newblock {\em Proceedings Information Visualization}, page~92, 1997.
+
+\bibitem{carroll2009creativity}
+E.~A. Carroll and C.~Latulipe.
+\newblock The creativity support index.
+\newblock In {\em CHI'09 Extended Abstracts on Human Factors in Computing
+  Systems}, pages 4009--4014. ACM, 2009.
+
+\bibitem{Chao2010}
+W.~Chao and T.~Munzner.
+\newblock {Poster: Rapid Pen-Centric Authoring of Improvisational
+  Visualizations with NapkinVis}.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  16(6), 2010.
+
+\bibitem{Grammel2010}
+L.~Grammel, M.~Tory, and M.~Storey.
+\newblock {How information visualization novices construct visualizations}.
+\newblock {\em Visualization and Computer Graphics, IEEE Transactions on},
+  16(6):943--952, 2010.
+
+\bibitem{heer2005prefuse}
+J.~Heer, S.~K. Card, and J.~A. Landay.
+\newblock {Prefuse: A Toolkit for Interactive Information Visualization}.
+\newblock In {\em CHI '05: Proceedings of the SIGCHI conference on Human
+  factors in computing systems}, pages 421--430, New York, NY, USA, 2005. ACM.
+
+\bibitem{Horn1998}
+W.~Horn, C.~Popow, and L.~Unterasinger.
+\newblock {Metaphor graphics to visualize ICU data over time}.
+\newblock {\em Intelligent Data Analysis in Medicine}, 1998.
+
+\bibitem{Keefe-2008-SSF}
+D.~Keefe, D.~Acevedo, J.~Miles, F.~Drury, S.~Swartz, and D.~H. Laidlaw.
+\newblock Scientific sketching for collaborative {VR} visualization design.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  14(4):835--847, July-August 2008.
+
+\bibitem{lee2012beyond}
+B.~Lee, P.~Isenberg, N.~H. Riche, and S.~Carpendale.
+\newblock Beyond mouse and keyboard: Expanding design considerations for
+  information visualization interactions.
+\newblock {\em Visualization and Computer Graphics, IEEE Transactions on},
+  18(12):2689--2698, 2012.
+
+\bibitem{Lins:TR:2011}
+L.~Lins, D.~Koop, J.~Freire, and C.~T. Silva.
+\newblock Defog: A system for data-backed visual composition.
+\newblock Technical Report UUSCI-2011-003, SCI Institute, University of Utah,
+  2011.
+
 \bibitem{Mackinlay1986}
 J.~Mackinlay.
 \newblock {Automating the design of graphical presentations of relational
   information}.
 \newblock {\em ACM Transactions on Graphics (TOG)}, 5(2):110--141, 1986.
+
+\bibitem{tory2004rethinking}
+T.~M\"{o}ller.
+\newblock {Rethinking Visualization: A High-Level Taxonomy}.
+\newblock In {\em IEEE Symposium on Information Visualization}, pages 151--158,
+  2004.
+
+\bibitem{url:bli}
+OECD.
+\newblock {Better Life Index}.
+\newblock http://www.oecdbetterlifeindex.org/.
+
+\bibitem{Ortiz2010}
+S.~Ortiz.
+\newblock {Use Cases of Impure, an Information Interface}.
+\newblock In {\em VisWeek 2010 Discovery Exhibition}, pages 2--4, 2010.
+
+\bibitem{Pinker:AIFT:1990}
+S.~Pinker.
+\newblock {A Theory of Graph Comprehension}.
+\newblock In R.~O. Freedle, editor, {\em Artificial Intelligence and the Future
+  of Testing}, pages 73--126. Lawrence Erlbaum Associates, 1990.
+
+\bibitem{ribarsky1994glyphmaker}
+W.~Ribarsky, E.~Ayers, J.~Eble, and S.~Mukherjea.
+\newblock {Glyphmaker: creating customized visualizations of complex data}.
+\newblock {\em Computer}, 27(7):57--64, 1994.
+
+\bibitem{Roth:CHI:1994}
+S.~F. Roth, J.~Kolojejchick, J.~Mattis, and J.~Goldstein.
+\newblock {Interactive Graphic Design Using Automatic Presentation Knowledge}.
+\newblock In {\em Proceedings CHI}, pages 112--117. ACM Press, 1994.
+
+\bibitem{Spelke:CogSci:1990}
+E.~S. Spelke.
+\newblock {Principles of Object Perception}.
+\newblock {\em Cognitive Science}, 14(1):29--56, 1990.
+
+\bibitem{stolte2002polaris}
+C.~Stolte, D.~Tang, and P.~Hanrahan.
+\newblock {Polaris: A System for Query, Analysis, and Visualization of
+  Multidimensional Relational Databases}.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  8(1):52--65, 2002.
+
+\bibitem{Taivalsaari1997}
+A.~Taivalsaari.
+\newblock {Classes vs. Prototypes: Some Philosophical and Historical
+  Observations}.
+\newblock {\em Journal of Object-Oriented Programming (JOOP)}, 10(7):44--50,
+  1997.
+
+\bibitem{Talbot2010}
+J.~Talbot, S.~Lin, and P.~Hanrahan.
+\newblock {An Extension of Wilkinson’s Algorithm for Positioning Tick Labels
+  on Axes}.
+\newblock {\em Computer}, 16(6):1036--1043, 2010.
+
+\bibitem{url:drawingDynamic}
+B.~Victor.
+\newblock {Drawing Dynamic Visualizations}.
+\newblock http://worrydream.com/\#!/Showreel2012.
+
+\bibitem{walny2011visual}
+J.~Walny, S.~Carpendale, N.~Henry~Riche, G.~Venolia, and P.~Fawcett.
+\newblock Visual thinking in action: Visualizations as used on whiteboards.
+\newblock {\em Visualization and Computer Graphics, IEEE Transactions on},
+  17(12):2508--2517, 2011.
+
+\bibitem{Wickham:JCGS:2010}
+H.~Wickham.
+\newblock {A Layered Grammar of Graphics}.
+\newblock {\em Journal of Computational and Graphical Statistics}, 19(1):3--28,
+  Mar. 2010.
+
+\bibitem{wilcox2008users}
+S.~Wilcox and W.~Marion.
+\newblock {\em Users manual for TMY3 data sets}.
+\newblock National Renewable Energy Laboratory Golden, CO, 2008.
+
+\bibitem{Wilkinson2005c}
+L.~Wilkinson and G.~Wills.
+\newblock {\em {The Grammar of Graphics}}.
+\newblock Springer, Chicago, IL, 2nd edition, 2005.
+
+\bibitem{Ziemkiewicz:InfoVis:2010}
+C.~Ziemkiewicz and R.~Kosara.
+\newblock {Laws of Attraction: From Perceived Forces to Conceptual Similarity}.
+\newblock {\em Transactions on Visualization and Computer Graphics (Proceedings
+  InfoVis)}, 16(6):1009--1016, 2010.
 
 \end{thebibliography}

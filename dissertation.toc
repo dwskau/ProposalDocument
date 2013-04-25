@@ -36,8 +36,9 @@
 \contentsline {bodysubsubsection}{\numberline {7.0.3.3}General CSI Results}{31}{bodysubsubsection.3}
 \contentsline {bodysubsubsection}{\numberline {7.0.3.4}Example Visualizations}{31}{bodysubsubsection.4}
 \contentsline {bodychapter}{\numberline {8}DISCUSSION}{33}{bodychapter.8}
-\contentsline {bodychapter}{\numberline {9}DISCUSSION}{35}{bodychapter.9}
-\contentsline {bodychapter}{\numberline {10}CONCLUSION}{37}{bodychapter.10}
-\contentsline {bodychapter}{\numberline {11}APPENDIX}{38}{bodychapter.11}
-\contentsline {bodychapter}{REFERENCES}{39}{bodychapter.11}
+\contentsline {bodychapter}{\numberline {9}FUTURE WORK}{35}{bodychapter.9}
+\contentsline {bodysubsection}{\numberline {9.0.1}Set of Primitives}{35}{bodysubsection.1}
+\contentsline {bodychapter}{\numberline {10}CONCLUSION}{36}{bodychapter.10}
+\contentsline {bodychapter}{\numberline {11}APPENDIX}{37}{bodychapter.11}
+\contentsline {bodychapter}{REFERENCES}{38}{bodychapter.11}
 \contentsfinish 

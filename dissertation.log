@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  24 APR 2013 14:03
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  25 APR 2013 00:50
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1088,14 +1088,19 @@ ages/gallery/svg-lCMWzs3C-26-auto2.pdf> <./images/gallery/svg-UBDlMBE2-29-auto2
 k3-61-auto2.pdf>]) (./chapters/chapter8.tex [31] [32]) (./chapters/chapter9.tex
 [33
 
-] [34]) (./chapters/chapter10.tex [35
+] [34]pdfTeX warning (ext4): destination with the same identifier (name{bodysub
+section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.8 \bodysubsection{Set of Primitives}
+                                      ) (./chapters/chapter10.tex [35
 
-] [36]) (./chapters/appendix.tex
-[37
+])
+(./chapters/appendix.tex [36
 
-]) [38
+]) [37
 
-] (./dissertation.bbl [39]
+] (./dissertation.bbl [38]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -1104,16 +1109,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--157
 []\OT1/ptm/m/n/12 B. Vic-tor.  Draw-ing Dy-namic Vi-su-al-iza-tions.
  []
 
-[40]) [41] (./dissertation.aux)
+[39]) [40] (./dissertation.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  9845 strings out of 493848
- 142298 string characters out of 3149207
+ 142306 string characters out of 3149207
  253479 words of memory out of 3000000
- 12712 multiletter control sequences out of 15000+200000
+ 12713 multiletter control sequences out of 15000+200000
  21619 words of font info for 54 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  53i,8n,92p,583b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1124,9 +1129,9 @@ ive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texliv
 e/2009/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (49 pages, 8972455 bytes).
+Output written on dissertation.pdf (48 pages, 8970567 bytes).
 PDF statistics:
- 23269 PDF objects out of 26593 (max. 8388607)
- 130 named destinations out of 1000 (max. 500000)
+ 23264 PDF objects out of 26593 (max. 8388607)
+ 129 named destinations out of 1000 (max. 500000)
  447 words of extra memory for PDF output out of 10000 (max. 10000000)
 

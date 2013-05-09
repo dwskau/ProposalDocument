@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  25 APR 2013 00:50
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  9 MAY 2013 18:14
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -511,9 +511,6 @@ Package hyperref Info: Option `linktocpage' set `true' on input line 27.
 
 LaTeX Warning: Label `' multiply defined.
 
-
-LaTeX Warning: Label `discussion' multiply defined.
-
 )
 \openout1 = `dissertation.aux'.
 
@@ -715,14 +712,14 @@ l.9 \bodysubsection{Bar Chart}
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/stackedBar.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/stackedBar.pdf, id=389, 491.8375pt x 468.75125pt>
+<images/stackedBar.pdf, id=409, 491.8375pt x 468.75125pt>
 File: images/stackedBar.pdf Graphic file (type pdf)
 
 <use images/stackedBar.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/groupedBar.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/groupedBar.pdf, id=391, 491.8375pt x 468.75125pt>
+<images/groupedBar.pdf, id=411, 491.8375pt x 468.75125pt>
 File: images/groupedBar.pdf Graphic file (type pdf)
 
 <use images/groupedBar.pdf>pdfTeX warning (ext4): destination with the same ide
@@ -735,7 +732,7 @@ edBar.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/scatterplot.pdf): PDF inclu
 sion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/scatterplot.pdf, id=924, 1084.68237pt x 266.1443pt>
+<images/scatterplot.pdf, id=944, 1084.68237pt x 266.1443pt>
 File: images/scatterplot.pdf Graphic file (type pdf)
 
 <use images/scatterplot.pdf>pdfTeX warning (ext4): destination with the same id
@@ -747,7 +744,7 @@ l.73 \bodysubsection{Line Chart}
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/lineChart.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<images/lineChart.pdf, id=1837, 1084.68237pt x 266.1443pt>
+<images/lineChart.pdf, id=1857, 1084.68237pt x 266.1443pt>
 File: images/lineChart.pdf Graphic file (type pdf)
 
 <use images/lineChart.pdf>pdfTeX warning (ext4): destination with the same iden
@@ -759,7 +756,7 @@ l.105 \bodysubsection{Heat Maps}
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/heatMap.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<images/heatMap.pdf, id=1841, 650.43pt x 670.505pt>
+<images/heatMap.pdf, id=1861, 650.43pt x 670.505pt>
 File: images/heatMap.pdf Graphic file (type pdf)
  <use images/heatMap.pdf>pdfTeX warning (ext4): destination with the same ident
 ifier (name{bodysubsection.5}) has been already used, duplicate ignored
@@ -770,7 +767,7 @@ l.124 \bodysubsection{Waterfall Chart}
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/presidents.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/presidents.pdf, id=1845, 1245.00128pt x 736.7525pt>
+<images/presidents.pdf, id=1865, 1245.00128pt x 736.7525pt>
 File: images/presidents.pdf Graphic file (type pdf)
 
 <use images/presidents.pdf> [19 <./images/lineChart.pdf>] [20 <./images/heatMap
@@ -778,7 +775,7 @@ File: images/presidents.pdf Graphic file (type pdf)
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/cars.pdf): PDF inclusion: f
 ound PDF version <1.5>, but at most version <1.4> allowed
-<images/cars.pdf, id=19761, 672.80559pt x 754.82pt>
+<images/cars.pdf, id=19781, 672.80559pt x 754.82pt>
 File: images/cars.pdf Graphic file (type pdf)
  <use images/cars.pdf>)
 (./chapters/chapter6.tex [21 <./images/presidents.pdf>] [22 <./images/cars.pdf>
@@ -817,7 +814,7 @@ o the URL [][]$\OT1/cmtt/m/n/12 http : / / visualizationprimitives .
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/tutorialChart.pdf): PDF inc
 lusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/tutorialChart.pdf, id=20806, 432.02303pt x 11.32652pt>
+<images/tutorialChart.pdf, id=20826, 432.02303pt x 11.32652pt>
 File: images/tutorialChart.pdf Graphic file (type pdf)
 
 <use images/tutorialChart.pdf>pdfTeX warning (ext4): destination with the same 
@@ -829,42 +826,42 @@ l.60 \bodysubsection{Results}
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/collaboration.pd
 f): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/histograms/collaboration.pdf, id=20898, 250.43562pt x 264.98898pt>
+<images/histograms/collaboration.pdf, id=20918, 250.43562pt x 264.98898pt>
 File: images/histograms/collaboration.pdf Graphic file (type pdf)
 
 <use images/histograms/collaboration.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/engagement.pdf):
  PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/histograms/engagement.pdf, id=20900, 250.43562pt x 264.98898pt>
+<images/histograms/engagement.pdf, id=20920, 250.43562pt x 264.98898pt>
 File: images/histograms/engagement.pdf Graphic file (type pdf)
 
 <use images/histograms/engagement.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/exploration.pdf)
 : PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/histograms/exploration.pdf, id=20902, 250.43562pt x 264.98898pt>
+<images/histograms/exploration.pdf, id=20922, 250.43562pt x 264.98898pt>
 File: images/histograms/exploration.pdf Graphic file (type pdf)
 
 <use images/histograms/exploration.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/expressiveness.p
 df): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/histograms/expressiveness.pdf, id=20904, 250.43562pt x 264.98898pt>
+<images/histograms/expressiveness.pdf, id=20924, 250.43562pt x 264.98898pt>
 File: images/histograms/expressiveness.pdf Graphic file (type pdf)
 
 <use images/histograms/expressiveness.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/tradeoff.pdf): P
 DF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/histograms/tradeoff.pdf, id=20906, 250.43562pt x 264.98898pt>
+<images/histograms/tradeoff.pdf, id=20926, 250.43562pt x 264.98898pt>
 File: images/histograms/tradeoff.pdf Graphic file (type pdf)
 
 <use images/histograms/tradeoff.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/transparency.pdf
 ): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/histograms/transparency.pdf, id=20908, 250.43562pt x 264.98898pt>
+<images/histograms/transparency.pdf, id=20928, 250.43562pt x 264.98898pt>
 File: images/histograms/transparency.pdf Graphic file (type pdf)
 
 <use images/histograms/transparency.pdf>pdfTeX warning (ext4): destination with
@@ -1010,7 +1007,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-lCMWzs3C-77-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-lCMWzs3C-77-auto2.pdf, id=20912, 581.22847pt x 414.30583pt>
+<images/gallery/svg-lCMWzs3C-77-auto2.pdf, id=20932, 581.22847pt x 414.30583pt>
 File: images/gallery/svg-lCMWzs3C-77-auto2.pdf Graphic file (type pdf)
 <use images/gallery/svg-lCMWzs3C-77-auto2.pdf>
 
@@ -1018,7 +1015,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-iBaorUUg-69-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-iBaorUUg-69-auto2.pdf, id=20914, 105.95886pt x 99.93295pt>
+<images/gallery/svg-iBaorUUg-69-auto2.pdf, id=20934, 105.95886pt x 99.93295pt>
 File: images/gallery/svg-iBaorUUg-69-auto2.pdf Graphic file (type pdf)
 
 <use images/gallery/svg-iBaorUUg-69-auto2.pdf>
@@ -1027,14 +1024,14 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-HKI5oDTV-30-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-HKI5oDTV-30-auto2.pdf, id=20916, 445.00754pt x 115.51758pt>
+<images/gallery/svg-HKI5oDTV-30-auto2.pdf, id=20936, 445.00754pt x 115.51758pt>
 File: images/gallery/svg-HKI5oDTV-30-auto2.pdf Graphic file (type pdf)
 <use images/gallery/svg-HKI5oDTV-30-auto2.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-kJfnjNbc-4-auto
 2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
-<images/gallery/svg-kJfnjNbc-4-auto2.pdf, id=20918, 669.4009pt x 54.23532pt>
+<images/gallery/svg-kJfnjNbc-4-auto2.pdf, id=20938, 669.4009pt x 54.23532pt>
 File: images/gallery/svg-kJfnjNbc-4-auto2.pdf Graphic file (type pdf)
 
 <use images/gallery/svg-kJfnjNbc-4-auto2.pdf>
@@ -1043,7 +1040,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-lCMWzs3C-26-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-lCMWzs3C-26-auto2.pdf, id=20920, 512.36116pt x 71.45245pt>
+<images/gallery/svg-lCMWzs3C-26-auto2.pdf, id=20940, 512.36116pt x 71.45245pt>
 File: images/gallery/svg-lCMWzs3C-26-auto2.pdf Graphic file (type pdf)
 
 <use images/gallery/svg-lCMWzs3C-26-auto2.pdf>
@@ -1052,7 +1049,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-UBDlMBE2-29-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-UBDlMBE2-29-auto2.pdf, id=20922, 585.06078pt x 137.05405pt>
+<images/gallery/svg-UBDlMBE2-29-auto2.pdf, id=20942, 585.06078pt x 137.05405pt>
 File: images/gallery/svg-UBDlMBE2-29-auto2.pdf Graphic file (type pdf)
 <use images/gallery/svg-UBDlMBE2-29-auto2.pdf>
 
@@ -1060,7 +1057,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-47GM6Lk3-87-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-47GM6Lk3-87-auto2.pdf, id=20924, 441.40108pt x 532.2595pt>
+<images/gallery/svg-47GM6Lk3-87-auto2.pdf, id=20944, 441.40108pt x 532.2595pt>
 File: images/gallery/svg-47GM6Lk3-87-auto2.pdf Graphic file (type pdf)
 
 <use images/gallery/svg-47GM6Lk3-87-auto2.pdf>
@@ -1069,7 +1066,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-47GM6Lk3-61-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-47GM6Lk3-61-auto2.pdf, id=20927, 402.71153pt x 531.67334pt>
+<images/gallery/svg-47GM6Lk3-61-auto2.pdf, id=20947, 402.71153pt x 531.67334pt>
 File: images/gallery/svg-47GM6Lk3-61-auto2.pdf Graphic file (type pdf)
 <use images/gallery/svg-47GM6Lk3-61-auto2.pdf> [28]pdfTeX warning (ext4): desti
 nation with the same identifier (name{bodysubsubsection.2}) has been already us
@@ -1092,15 +1089,38 @@ k3-61-auto2.pdf>]) (./chapters/chapter8.tex [31] [32]) (./chapters/chapter9.tex
 section.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.8 \bodysubsection{Set of Primitives}
-                                      ) (./chapters/chapter10.tex [35
+l.10 \bodysubsection{Default Values}
+                                     [35
 
-])
-(./chapters/appendix.tex [36
+]pdfTeX warning (ext4): destination with the same identifier (name{bodysubsecti
+on.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.22 \bodysubsection{Primitives Graph}
+                                      pdfTeX warning (ext4): destination with t
+he same identifier (name{bodysubsection.3}) has been already used, duplicate ig
+nored
+<to be read again> 
+                   \relax 
+l.36 ...subsection{Connections Between Primitives}
+                                                   [36]pdfTeX warning (ext4): d
+estination with the same identifier (name{bodysubsection.4}) has been already u
+sed, duplicate ignored
+<to be read again> 
+                   \relax 
+l.48 \bodysubsection{Set of Primitives}
+                                       pdfTeX warning (ext4): destination with 
+the same identifier (name{bodysubsection.5}) has been already used, duplicate i
+gnored
+<to be read again> 
+                   \relax 
+l.58 \bodysubsection{Creativity Support}
+                                        ) (./chapters/chapter10.tex [37])
+(./chapters/appendix.tex [38
 
-]) [37
+]) [39
 
-] (./dissertation.bbl [38]
+] (./dissertation.bbl [40]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -1109,16 +1129,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--157
 []\OT1/ptm/m/n/12 B. Vic-tor.  Draw-ing Dy-namic Vi-su-al-iza-tions.
  []
 
-[39]) [40] (./dissertation.aux)
+[41]) [42] (./dissertation.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9845 strings out of 493848
- 142306 string characters out of 3149207
- 253479 words of memory out of 3000000
- 12713 multiletter control sequences out of 15000+200000
+ 9854 strings out of 493848
+ 142438 string characters out of 3149207
+ 253801 words of memory out of 3000000
+ 12720 multiletter control sequences out of 15000+200000
  21619 words of font info for 54 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  53i,8n,92p,583b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1129,9 +1149,9 @@ ive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texliv
 e/2009/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (48 pages, 8970567 bytes).
+Output written on dissertation.pdf (50 pages, 8977559 bytes).
 PDF statistics:
- 23264 PDF objects out of 26593 (max. 8388607)
- 129 named destinations out of 1000 (max. 500000)
- 447 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23293 PDF objects out of 26593 (max. 8388607)
+ 131 named destinations out of 1000 (max. 500000)
+ 487 words of extra memory for PDF output out of 10000 (max. 10000000)
 

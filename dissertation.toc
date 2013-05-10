@@ -41,8 +41,8 @@
 \contentsline {bodysubsection}{\numberline {9.0.2}Primitives Graph}{36}{bodysubsection.2}
 \contentsline {bodysubsection}{\numberline {9.0.3}Connections Between Primitives}{36}{bodysubsection.3}
 \contentsline {bodysubsection}{\numberline {9.0.4}Set of Primitives}{37}{bodysubsection.4}
-\contentsline {bodysubsection}{\numberline {9.0.5}Creativity Support}{37}{bodysubsection.5}
-\contentsline {bodychapter}{\numberline {10}CONCLUSION}{38}{bodychapter.10}
-\contentsline {bodychapter}{\numberline {11}APPENDIX}{39}{bodychapter.11}
-\contentsline {bodychapter}{REFERENCES}{40}{bodychapter.11}
+\contentsline {bodysubsection}{\numberline {9.0.5}Creativity Support}{38}{bodysubsection.5}
+\contentsline {bodychapter}{\numberline {10}CONCLUSION}{39}{bodychapter.10}
+\contentsline {bodychapter}{\numberline {11}APPENDIX}{40}{bodychapter.11}
+\contentsline {bodychapter}{REFERENCES}{41}{bodychapter.11}
 \contentsfinish 

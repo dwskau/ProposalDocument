@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  9 MAY 2013 18:14
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  9 MAY 2013 20:54
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1115,12 +1115,12 @@ gnored
 <to be read again> 
                    \relax 
 l.58 \bodysubsection{Creativity Support}
-                                        ) (./chapters/chapter10.tex [37])
-(./chapters/appendix.tex [38
+                                         [37]) (./chapters/chapter10.tex
+[38]) (./chapters/appendix.tex [39
 
-]) [39
+]) [40
 
-] (./dissertation.bbl [40]
+] (./dissertation.bbl [41]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -1129,16 +1129,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--157
 []\OT1/ptm/m/n/12 B. Vic-tor.  Draw-ing Dy-namic Vi-su-al-iza-tions.
  []
 
-[41]) [42] (./dissertation.aux)
+[42]) [43] (./dissertation.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9854 strings out of 493848
- 142438 string characters out of 3149207
+ 9853 strings out of 493848
+ 142413 string characters out of 3149207
  253801 words of memory out of 3000000
- 12720 multiletter control sequences out of 15000+200000
+ 12718 multiletter control sequences out of 15000+200000
  21619 words of font info for 54 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  53i,8n,92p,583b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1149,9 +1149,9 @@ ive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texliv
 e/2009/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (50 pages, 8977559 bytes).
+Output written on dissertation.pdf (51 pages, 8979253 bytes).
 PDF statistics:
- 23293 PDF objects out of 26593 (max. 8388607)
- 131 named destinations out of 1000 (max. 500000)
+ 23297 PDF objects out of 26593 (max. 8388607)
+ 132 named destinations out of 1000 (max. 500000)
  487 words of extra memory for PDF output out of 10000 (max. 10000000)
 

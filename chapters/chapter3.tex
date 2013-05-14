@@ -2,7 +2,7 @@
 \label{cognitiveMotivation}
 
 Part of the motivation for this work, both for the theoretical side and the practical uses for visualization designers, is based on the idea of designing visual objects as actual objects (rather than a pipeline).
-We believe that this is approach more closely matches an effective mental model that can benefit both education in information visualization and creativity in visualizations.
+We believe that this is approach more closely matches an effective mental model that can benefit both education in information visualization and creativity in creating visualizations.
 
 \bodysubsection{The Information Visualization Model}
 \label{infoVisModel}
@@ -12,11 +12,14 @@ Bertin's marks are individual objects, just as the data points rendered by APT~\
 One of the two dimensions Tory and M\"oller~\cite{tory2004rethinking} use to distinguish between scientific and information visualization is also the discrete domain of the data (the other dimension being whether the spatial layout is given or chosen).
 
 This distinction is fundamental and important, because it leads to entirely different types of solutions than work being done in scientific visualization.
-Ray casting, splatting, and other techniques that assume and require a continuous data domain (where values can be meaningfully interpolated between data points) are of no use in information visualization; though some of our techniques are applicable in scientific visualization, because any real dataset necessarily consists of a limited number of data values.
+Ray casting, splatting, and other techniques that assume and require a continuous data domain (where values can be meaningfully interpolated between data points) are of no use in information visualization; though some InfoVis techniques are applicable in scientific visualization, because any real dataset necessarily consists of a limited number of data values.
 
 Distinct data values translate into distinct, well-defined visual objects.
 While a volume dataset can be rendered at many different resolutions, and can even be improved by better reconstruction and interpolation techniques, the number of items to be drawn for a given dataset in information visualization is not up for debate: one visual shape for each data point (except when there is filtering or aggregation).
 
+This concept of maintaining the same discretization throughout the path from data to visual representation is important.
+It helps the simplicity of the model, and makes it possible to connect individuals in the visualization to individuals in the data source.
+It also means that an object oriented approach to creating data visualizations is a good fit.
 Many programs in information visualization, are not only written in object-oriented languages, but actually embody some of the ideas presented in this model.
 In particular, prefuse~\cite{heer2005prefuse} and Protovis~\cite{bostock2009Protovis} provide classes that closely resemble primitives, as well as the means to iterate over such definitions to render data onto the screen.
 
@@ -41,5 +44,3 @@ We also believe the experimentation process that this model allows can help user
 
 We believe that having a model that closely aligns with our perceptual and cognitive processes can assist creativity by allowing users to think in more natural ways.
 As a result, it may help to support creativity when using tools based on the model.
-\bodysubsection{}
-\label{}

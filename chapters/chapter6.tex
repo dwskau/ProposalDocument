@@ -1,13 +1,13 @@
-\bodychapter{STUDY DESIGN}
-\label{studyDesign}
+\bodychapter{EXPERIMENT}
+\label{experiment}
 
-The aim of the visualization primitives model is to enable creativity during the creation of data visualizations.
+One aim of the visualization primitives model is to enable creativity during the creation of data visualizations.
 Given this goal, tests to measure the implementation need to evaluate the ability of the tool to support creativity.
 This means that a user study will not evaluate visualization primitives against other tools using tests of task efficiency, or other similar metrics.
 Instead, we employ the Creativity Support Index (CSI)~\cite{carroll2009creativity} to evaluate the tool's ability to support creativity.
 The CSI is based closely on a toolÕs ability to support a Òflow stateÓ for the user.
 
-The study is intended to measure the toolÕs ability to support creativity, not to quantify the quality of visualizations that are produced.
+The study is intended to measure the tool's ability to support creativity, not to quantify the quality of visualizations that are produced.
 These concepts are related, however they are not identical.
 Creative results are not guaranteed even with tools that support creativity perfectly.
 Creativity depends on several components, including the mind of the creator, and the capabilities of the tool at hand.
@@ -18,3 +18,247 @@ The nature of creativity requires that the user study be flexible about regulati
 Tasks that ask a user to find a certain thing in the data could provide inspiration, but they could also constrain thought processes.
 Time limits impose pressure that could help or hinder the creative thought process.
 We have opted to remove external pressures in the study, allowing participants to build visualizations at their own pace, setting their own tasks along the way.
+
+To test the ability of Visualization Primitives to support creativity in visualization design, we conducted an online experiment. 
+We chose an open-ended session design in which participants used Visualization Primitives freely, but with a dataset chosen by the experimenters and with questions preceding and following the session.
+
+Specifically, we formed the following hypotheses regarding Visualization Primitives and creativity:
+\begin{itemize}
+    \item More experience in visualization would lead to a higher score in the Creativity Support Index.
+    \item More experience in visualization would lead to more visualizations generated using the tool.
+    \item Visualization Primitives can significantly impact creativity in visualization design for users with sufficient experience with visualizations.
+\end{itemize}
+
+\bodysubsection{Materials}
+\label{materials}
+
+% can re-order these elements if needed
+The materials used in this experiment consist of three main elements: the dataset, visualization-specific demographics, and the Creativity Support Index.
+
+We chose to use the Better Life Index as a dataset for several reasons.
+Primarily, the dataset has been used previously for a creative flower based visualization~\cite{url:bli}.
+The dataset is also socially relevant since it contains information on several different countries.
+This means a wider group of people may find the data relevant to themselves, encouraging participation.
+Finally, the dataset size is large enough to provide interesting possibilities for visualization and analysis, yet small enough to run well in a browser.
+
+Besides typical demographics such as age, education, and gender, we also included questions to measure participants' experience level with visualization tools.
+Specifically, participants were asked to rank their experience with other data visualization tools (using a 20-point scale), and to describe their experiences in a text area.
+
+The CSI is an analogue to the NASA Task-load Index (TLX), but for measuring how well a tool supports creativity~\cite{carroll2009creativity}.
+In the CSI, participants are first given six 20-point Likert-scale questions that measure the tool's ability to support exploration, collaboration, engagement, expressiveness, perceived effort, and the tool's ability to become transparent to the design process.
+Next, participants answer fifteen ranked-pair questions, choosing which of the aforementioned aspects was more important to them during the activity (e.g. exploration versus collaboration).
+The CSI questions are shown below.
+
+These questions are answered using a 20-point Likert-scale for each.
+
+\begin{itemize}
+	\item It was easy for me to explore many different options, ideas, designs, or outcomes without a lot of tedious, repetitive interaction.
+	\item I was able to work together with others easily while doing this activity.
+	\item I was very absorbed/engaged in this activity - I enjoyed it and would do it again.
+	\item What I was able to produce was worth the effort required to produce it.
+	\item While I was doing the activity, the tool/interface/system "disappeared," and I was able to concentrate on the activity.
+	\item I was able to be very expressive and creative while doing the activity.
+\end{itemize}
+
+For each pair below, please select which factor is most important to you when you were doing this activity.
+
+\begin{tabular}{l l}
+Exploration & Collaboration \\
+Exploration & Engagement \\
+Exploration & Effort/Reward Tradeoff \\
+Exploration & Tool Transparency \\
+Exploration & Expressiveness \\
+Collaboration & Engagement \\
+Collaboration & Effort/Reward Tradeoff \\
+Collaboration & Tool Transparency \\
+Collaboration & Expressiveness \\
+Expressiveness & Effort/Reward Tradeoff \\
+Expressiveness & Tool Transparency \\
+Expressiveness & Engagement \\
+Engagement & Tool Transparency \\
+Engagement & Effort/Reward Tradeoff \\
+Effort/Reward Tradeoff & Tool Transparency \\
+\end{tabular}
+
+\bodysubsection{Procedure}
+\label{procedure}
+
+Participants were recruited via advertising on Twitter to the URL~\url{http://visualizationprimitives.net}.
+No payments or incentives were given.
+It took approximately six days to gather all responses.
+
+After following the link, participants were shown a briefing which described the experiment as an open-ended visualization creation tool.
+When participants indicated they were ready, they were asked for basic demographics (age, gender, education level).
+
+After completing the demographics, a multiple step tutorial was started.
+In this tutorial, participants were required to perform the actions necessary to make a bubble chart (Figure~\ref{fig:tutorialChart}).
+Participants were also instructed to submit ``results they were happy with'' at any time via a submit button. That sent their current screen configuration to our server as a SVG (scalable vector graphics) file.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{images/tutorialResult.pdf}
+\caption{
+The bubble chart users were left with after completing the tutorial.
+}
+\label{fig:tutorialChart}
+\end{figure}
+
+Following the tutorial, participants were allowed to use Visualization Primitives with the OECD's Better Life Index~\cite{url:bli} dataset for any amount of time, submitting notable visualizations as desired.
+In addition to participant-submitted visualizations, the system also auto-submitted when any new mapping was assigned.
+
+When participants indicated they were finished with the open-ended session, they clicked a done button and were presented with the final questionnaire, which contained three parts: visualization-experience, the Creativity Support Index~\cite{carroll2009creativity}, and a space for any additional comments.
+
+\bodysubsection{Results}
+\label{results}
+
+As with many online studies, participation drastically fell off with each step.
+875 participants made it past the introduction page.
+674 answered the demographic information.
+95 participants completed the tutorial.
+44 completed the CSI, and only 31 of those built anything beyond the tutorial before answering the CSI.
+Participants who answered the CSI and completed the tutorial made an average of 14 (median of 8) mappings.
+Participants who did not answer the CSI, but completed the tutorial, made an average of 9 (median of 6) mappings.
+For the participants who answered the CSI, their average time with the primitives was 21 minutes, with a median of 13, and standard deviation of 23.
+Not including submissions made during the tutorial, a total of 1060 SVG files were generated.
+
+Since each participant worked with the same dataset and answered the same questions, our experiment adhered to a between-subjects design for the CSI evaluation.
+We divide our analysis into two cases to examine the relationship between experience, perceived creativity support, and productivity (i.e., the number of visualizations produced).
+
+%XXXXX Don't just report CSI results, also number of participants, total number of submissions, submissions per participant, etc.
+
+We excluded 4 participants who did not complete the CSI due to technical issues, and 3 participants who provided meaningless answers for the final questionnaire resulting in $n = 23$ for the final analysis.
+
+%XXXXX What does that mean?
+%XXXXX Also, why only 23? I thought we had 45?
+
+Participants were then divided according to their reported experience with visualization tools.
+Since a 20-point scale was used for the visualization experience question, we divided participants evenly into a high ($experience >= 17, n = 12$) experience group and a low ($experience < 17, n = 11$) group.
+
+\begin{figure}[t]
+    \subfigure[Collaboration]{
+        \includegraphics[width=.3\columnwidth]{images/histograms/collaboration.pdf}
+        \label{fig:collaboration}
+    }
+    \hfill
+    \subfigure[Engagement]{
+        \includegraphics[width=.3\columnwidth]{images/histograms/engagement.pdf}
+        \label{fig:engagement}
+    }
+    \hfill
+    \subfigure[Exploration]{
+        \includegraphics[width=.3\columnwidth]{images/histograms/exploration.pdf}
+        \label{fig:exploration}
+    }
+    \hfill
+    \subfigure[Expressiveness]{
+        \includegraphics[width=.3\columnwidth]{images/histograms/expressiveness.pdf}
+        \label{fig:expressiveness}
+    }
+    \hfill
+    \subfigure[Effort/Reward]{
+        \includegraphics[width=.3\columnwidth]{images/histograms/tradeoff.pdf}
+        \label{fig:tradeoff}
+    }
+    \hfill
+    \subfigure[Tool Transparency]{
+        \includegraphics[width=.3\columnwidth]{images/histograms/transparency.pdf}
+        \label{fig:transparency}
+    }
+\caption{Histograms of the rankings for each factor
+(built using the visualization primitives prototype).}
+\label{fig:histograms}
+\end{figure}
+
+
+\bodysubsubsection{Experience and Creativity Support}
+\label{experienceAndCreativitySupport}
+
+CSI scores are an index out of 100. They are calculated by combining ranked pairs with Likert scale results. For each factor, the Likert scale results are multiplied by the total factor count from the ranked pair portion. This value is then added to all the other factor results, and divided by 3 to arrive at an index out of 100. Table~\ref{table:factorRankings} and Figure~\ref{fig:histograms} show the results.
+
+\begin{table}
+    \centering
+        \begin{tabular}{l|r|r|r}
+            FactorÊÊÊÊÊÊÊÊ & MeanÊ & Median & Standard Deviation \\         \hline
+            explorationÊÊÊ & 41.62 & 39.5ÊÊ & 24.46ÊÊÊÊÊÊÊÊÊÊÊÊÊ \\ 
+            collaborationÊ & 9ÊÊÊÊ & 0ÊÊÊÊÊ & 18.22ÊÊÊÊÊÊÊÊÊÊÊÊÊ \\ 
+            engagementÊÊÊÊ & 26.31 & 18.5ÊÊ & 19.87ÊÊÊÊÊÊÊÊÊÊÊÊÊ \\ 
+            tradeoffÊÊÊÊÊÊ & 37.73 & 37.5ÊÊ & 27.3ÊÊÊÊÊÊÊÊÊÊÊÊÊÊ \\ 
+            transparencyÊÊ & 53ÊÊÊ & 45ÊÊÊÊ & 35.48ÊÊÊÊÊÊÊÊÊÊÊÊÊ \\ 
+            expressiveness & 38.23 & 40ÊÊÊÊ & 23.52ÊÊÊÊÊÊÊÊÊÊÊÊÊ \\
+        \end{tabular}
+
+    \caption{\label{table:factorRankings} Factor ranking results.}
+\end{table}
+
+\begin{figure*}[p]
+    \subfigure[]{
+        \includegraphics[width=200pt]{images/gallery/svg-lCMWzs3C-77-auto2.pdf}
+        \label{fig:gallery7}
+    }
+    \hfill
+    \subfigure[]{
+        \includegraphics[width=160pt]{images/gallery/svg-iBaorUUg-69-auto2.pdf}
+        \label{fig:gallery4}
+    }
+    \hfill
+    \subfigure[]{
+        \includegraphics[width=.45\columnwidth]{images/gallery/svg-HKI5oDTV-30-auto2.pdf}
+        \label{fig:gallery3}
+    }
+    \hfill
+    \subfigure[]{
+        \includegraphics[width=.45\columnwidth]{images/gallery/svg-kJfnjNbc-4-auto2.pdf}
+        \label{fig:gallery5}
+    }
+    \hfill
+    \subfigure[]{
+        \includegraphics[width=.45\columnwidth]{images/gallery/svg-lCMWzs3C-26-auto2.pdf}
+        \label{fig:gallery6}
+    }
+    \hfill
+    \subfigure[]{
+        \includegraphics[width=.45\columnwidth]{images/gallery/svg-UBDlMBE2-29-auto2.pdf}
+        \label{fig:gallery8}
+    }
+    \hfill
+    \subfigure[By the same participant as \ref{fig:gallery1}.]{
+        \includegraphics[width=.45\columnwidth]{images/gallery/svg-47GM6Lk3-87-auto2.pdf}
+        \label{fig:gallery2}
+    }
+    \hfill
+    \subfigure[By the same participant as \ref{fig:gallery2}.]{
+       \includegraphics[width=.45\columnwidth]{images/gallery/svg-47GM6Lk3-61-auto2.pdf}
+       \label{fig:gallery1}
+   }
+\caption{A selection of example visualizations submitted by study participants.}
+\end{figure*}
+
+We compared CSI scores for the low-experience and high-experience groups using a t-test.
+This yields a significant effect for the CSI-score $t(21) = 2.0843; p = 0.0495$, with CSI-score in the high-experience group being higher than that of the low-experience group. 
+The lower mean CSI-score appeared in the low-experience group ($M = 54.27, SD = 22.50$), meaning participants in the high-experience group felt that Visualization Primitives supported their creativity in visualization design more ($M = 73.75, SD = 22.28$).
+(The paper presenting the CSI offers a sample ranking of 77.3~\cite{carroll2009creativity})
+These results are consistent with our hypothesis that Visualization Primitives can significantly impact creativity in visualization design for participants who have sufficient experience with visualizations.
+
+\bodysubsubsection{Experience and Productivity}
+\label{experienceAndProductivity}
+
+We also compared experience with the total number of SVG graphics submitted.
+This did not yield a significant effect for the the total number of SVGs submitted, although participants in the high-experience group submitted more SVGs on average ($M = 21, SD = 19$) than those in the low-experience group ($M = 17, SD = 10$). % $t(21) = 0.6745; p = 0.5073$
+These results do not support our hypothesis that users with more experience in visualization would submit a higher number of visualizations.
+
+\bodysubsubsection{General CSI Results}
+\label{CSIResults}
+
+In addition to discussing the total CSI scores, it is also useful to look at which categories the participants ranked most important to them while using Visualization Primitives.
+These results are shown in Figure~\ref{fig:histograms}.
+Tool transparency and exploration ranked most important, while collaboration and engagement ranked at the bottom of users' priorities.
+
+\bodysubsubsection{Example Visualizations}
+\label{exampleVisualizations}
+
+The vast majority of users generated simple visualizations with a single primitive.
+Since the tutorial left users with a circle primitive, scatterplots became one of the most common visualizations that was created.
+Many users created visuals with only one or two primitives, and often there was no data driven spatial relationship between those primitives.
+Connections between primitives were rare, possibly because that ability was not explicitly shown to users during the tutorial, only described in text.
+The connections that were created were often built off of the bubble chart created during the tutorial (Figures~\ref{fig:gallery6},~\ref{fig:gallery8}).
+Often the creations fell somewhere between art and data visualization (Figures~\ref{fig:gallery7},~\ref{fig:gallery3},~\ref{fig:gallery5}), and some resulted in purely artistic work (Figures~\ref{fig:gallery4},~\ref{fig:gallery2},~\ref{fig:gallery1}).

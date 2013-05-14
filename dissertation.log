@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  9 MAY 2013 20:54
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  14 MAY 2013 15:14
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -507,11 +507,7 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 27.
 Package hyperref Info: Option `plainpages' set `false' on input line 27.
 Package hyperref Info: Option `linktocpage' set `true' on input line 27.
 
-(./dissertation.aux
-
-LaTeX Warning: Label `' multiply defined.
-
-)
+(./dissertation.aux)
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
@@ -529,7 +525,8 @@ LaTeX Font Info:    ... okay on input line 95.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
 LaTeX Font Info:    ... okay on input line 95.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 95.
- (/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -623,7 +620,13 @@ Package hyperref Warning: No destination for bookmark of \addcontentsline,
 Package hyperref Warning: bookmark level for unknown bodychapter defaults to 0.
 
 
-(./dissertation.lof [6])
+(./dissertation.lof
+Overfull \hbox (1.79306pt too wide) in paragraph at lines 14--14
+[]|\OT1/ptm/m/n/12 FIGURE  4:  The in-ter-face for the cur-rent im-ple-men-ta-t
+ion of Vi-su-al-iza-tion Primitives.| 
+ []
+
+[6])
 \tf@lof=\write6
 \openout6 = `dissertation.lof'.
 
@@ -632,15 +635,27 @@ Package hyperref Warning: bookmark level for unknown bodychapter defaults to 0.
 \openout7 = `dissertation.lot'.
 
  [8] (./chapters/chapter1.tex
-[1
+Overfull \hbox (19.42174pt too wide) in paragraph at lines 4--9
+[]\OT1/ptm/m/n/12 Creating new types of vi-su-al-iza-tion in-vari-ably re-quire
+s pro-gram-ming. Tools like Tableau [[]]
+ []
 
-]) (./chapters/chapter2.tex [2]
+
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/primitive.pdf): PDF inclusi
+on: found PDF version <1.5>, but at most version <1.4> allowed
+<images/primitive.pdf, id=278, 343.48825pt x 120.52226pt>
+File: images/primitive.pdf Graphic file (type pdf)
+
+<use images/primitive.pdf>) (./chapters/chapter2.tex [1
+
+] [2 <./images/primitive.pdf>]
 
 Package hyperref Warning: bookmark level for unknown bodysubsection defaults to
  0.
 
 
-Overfull \hbox (24.31673pt too wide) in paragraph at lines 8--11
+Overfull \hbox (24.31673pt too wide) in paragraph at lines 8--13
 []\OT1/ptm/m/n/12 Information vi-su-al-iza-tion is mostly un-der-stood as the v
 i-su-al-iza-tion of dis-crete data points [[]].
  []
@@ -659,16 +674,10 @@ l.7 ...ection{The Information Visualization Model}
 on.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.23 \bodysubsection{Cognitive Models}
-                                       [8]pdfTeX warning (ext4): destination wi
-th the same identifier (name{bodysubsection.3}) has been already used, duplicat
-e ignored
-<to be read again> 
-                   \relax 
-l.44 \bodysubsection{}
-                      ) (./chapters/chapter4.tex [9]pdfTeX warning (ext4): dest
-ination with the same identifier (name{bodysubsection.1}) has been already used
-, duplicate ignored
+l.26 \bodysubsection{Cognitive Models}
+                                       [8]) (./chapters/chapter4.tex [9]pdfTeX 
+warning (ext4): destination with the same identifier (name{bodysubsection.1}) h
+as been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.14 \bodysubsection{Prototypes}
@@ -678,190 +687,200 @@ l.14 \bodysubsection{Prototypes}
 on.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.32 \bodysubsection{Visual Properties}
+l.37 \bodysubsection{Visual Properties}
                                         [11]
 
 Package hyperref Warning: bookmark level for unknown bodysubsubsection defaults
  to 0.
 
-pdfTeX warning (ext4): destination with the same identifier (name{bodysubsectio
-n.3}) has been already used, duplicate ignored
+[12]pdfTeX warning (ext4): destination with the same identifier (name{bodysubse
+ction.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 \bodysubsection{Iteration}
-                                [12]pdfTeX warning (ext4): destination with the
- same identifier (name{bodysubsection.4}) has been already used, duplicate igno
-red
+l.69 \bodysubsection{Iteration}
+                                [13]pdfTeX warning (ext4): destination with the
+ same identifier (name{bodysubsubsection.1}) has been already used, duplicate i
+gnored
 <to be read again> 
                    \relax 
-l.75 \bodysubsection{Data}
-                          pdfTeX warning (ext4): destination with the same iden
-tifier (name{bodysubsubsection.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.86 \bodysubsubsection{Mappings}
-                                  [13] [14]) (./chapters/chapter5.tex [15]pdfTe
-X warning (ext4): destination with the same identifier (name{bodysubsection.1})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.9 \bodysubsection{Bar Chart}
-                               [16
+l.98 \bodysubsubsection{Mappings}
+                                  [14]
+<images/vieVisu.png, id=587, 981.6675pt x 727.71875pt>
+File: images/vieVisu.png Graphic file (type png)
+
+<use images/vieVisu.png> [15]
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/layout.pdf): PDF inclusion:
+ found PDF version <1.5>, but at most version <1.4> allowed
+<images/layout.pdf, id=594, 343.48825pt x 120.52226pt>
+File: images/layout.pdf Graphic file (type pdf)
+ <use images/layout.pdf>
+[16 <./images/vieVisu.png (PNG copy)>]) (./chapters/chapter5.tex [17 <./images/
+layout.pdf>] [18
 
 ]
 
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/interface.pdf): PDF inclusi
+on: found PDF version <1.5>, but at most version <1.4> allowed
+<images/interface.pdf, id=797, 560.63652pt x 296.02094pt>
+File: images/interface.pdf Graphic file (type pdf)
+
+<use images/interface.pdf>pdfTeX warning (ext4): destination with the same iden
+tifier (name{bodysubsection.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36 \bodysubsection{Bar Chart}
+                                [19 <./images/interface.pdf>]
+
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/stackedBar.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/stackedBar.pdf, id=409, 491.8375pt x 468.75125pt>
+<images/stackedBar.pdf, id=1023, 491.8375pt x 468.75125pt>
 File: images/stackedBar.pdf Graphic file (type pdf)
 
 <use images/stackedBar.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/groupedBar.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/groupedBar.pdf, id=411, 491.8375pt x 468.75125pt>
+<images/groupedBar.pdf, id=1025, 491.8375pt x 468.75125pt>
 File: images/groupedBar.pdf Graphic file (type pdf)
 
 <use images/groupedBar.pdf>pdfTeX warning (ext4): destination with the same ide
 ntifier (name{bodysubsection.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.47 \bodysubsection{Scatterplot}
-                                  [17 <./images/stackedBar.pdf> <./images/group
+l.74 \bodysubsection{Scatterplot}
+                                  [20 <./images/stackedBar.pdf> <./images/group
 edBar.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/scatterplot.pdf): PDF inclu
 sion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/scatterplot.pdf, id=944, 1084.68237pt x 266.1443pt>
+<images/scatterplot.pdf, id=1559, 1084.68237pt x 266.1443pt>
 File: images/scatterplot.pdf Graphic file (type pdf)
 
 <use images/scatterplot.pdf>pdfTeX warning (ext4): destination with the same id
 entifier (name{bodysubsection.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.73 \bodysubsection{Line Chart}
-                                 [18 <./images/scatterplot.pdf>]
+l.100 \bodysubsection{Line Chart}
+                                  [21 <./images/scatterplot.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/lineChart.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<images/lineChart.pdf, id=1857, 1084.68237pt x 266.1443pt>
+<images/lineChart.pdf, id=2472, 1084.68237pt x 266.1443pt>
 File: images/lineChart.pdf Graphic file (type pdf)
 
 <use images/lineChart.pdf>pdfTeX warning (ext4): destination with the same iden
 tifier (name{bodysubsection.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.105 \bodysubsection{Heat Maps}
+l.133 \bodysubsection{Heat Maps}
                                 
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/heatMap.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<images/heatMap.pdf, id=1861, 650.43pt x 670.505pt>
+<images/heatMap.pdf, id=2476, 650.43pt x 670.505pt>
 File: images/heatMap.pdf Graphic file (type pdf)
- <use images/heatMap.pdf>pdfTeX warning (ext4): destination with the same ident
-ifier (name{bodysubsection.5}) has been already used, duplicate ignored
+ <use images/heatMap.pdf>
+[22]pdfTeX warning (ext4): destination with the same identifier (name{bodysubse
+ction.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.124 \bodysubsection{Waterfall Chart}
+l.152 \bodysubsection{Waterfall Chart}
                                       
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/presidents.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/presidents.pdf, id=1865, 1245.00128pt x 736.7525pt>
+<images/presidents.pdf, id=2484, 1245.00128pt x 736.7525pt>
 File: images/presidents.pdf Graphic file (type pdf)
 
-<use images/presidents.pdf> [19 <./images/lineChart.pdf>] [20 <./images/heatMap
-.pdf>]
+<use images/presidents.pdf> [23 <./images/lineChart.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/cars.pdf): PDF inclusion: f
 ound PDF version <1.5>, but at most version <1.4> allowed
-<images/cars.pdf, id=19781, 672.80559pt x 754.82pt>
+<images/cars.pdf, id=2612, 672.80559pt x 754.82pt>
 File: images/cars.pdf Graphic file (type pdf)
- <use images/cars.pdf>)
-(./chapters/chapter6.tex [21 <./images/presidents.pdf>] [22 <./images/cars.pdf>
-]
+ <use images/cars.pdf>
+[24 <./images/heatMap.pdf>]) (./chapters/chapter6.tex [25 <./images/presidents.
+pdf>] [26 <./images/cars.pdf>]
 Missing character: There is no Õ in font ptmr7t!
 Missing character: There is no Ò in font ptmr7t!
 Missing character: There is no Ó in font ptmr7t!
-Missing character: There is no Õ in font ptmr7t!
-) (./chapters/chapter7.tex [23
+ [27
 
-] [24]pdfTeX warning (ext4): destination with the same identifier (name{bodysub
-section.1}) has been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{bodysubsecti
+on.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.13 \bodysubsection{Materials}
+l.32 \bodysubsection{Materials}
                                
-Overfull \hbox (28.28806pt too wide) in paragraph at lines 17--18
+Overfull \hbox (28.28806pt too wide) in paragraph at lines 36--37
 []\OT1/ptm/m/n/12 The ma-te-ri-als used in this ex-per-i-ment con-sist of three
  main el-e-ments: the dataset, visualization-
  []
 
-[25
-
-]pdfTeX warning (ext4): destination with the same identifier (name{bodysubsecti
-on.2}) has been already used, duplicate ignored
+[28] [29]pdfTeX warning (ext4): destination with the same identifier (name{body
+subsection.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.32 \bodysubsection{Procedure}
+l.83 \bodysubsection{Procedure}
                                
-Overfull \hbox (77.51509pt too wide) in paragraph at lines 35--38
+Overfull \hbox (77.51581pt too wide) in paragraph at lines 86--89
 []\OT1/ptm/m/n/12 Participants were re-cruited via ad-ver-tis-ing on Twit-ter t
 o the URL [][]$\OT1/cmtt/m/n/12 http : / / visualizationprimitives .
  []
 
-[26]
+[30]
 
-pdfTeX warning: /usr/texbin/pdflatex (file ./images/tutorialChart.pdf): PDF inc
-lusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/tutorialChart.pdf, id=20826, 432.02303pt x 11.32652pt>
-File: images/tutorialChart.pdf Graphic file (type pdf)
+pdfTeX warning: /usr/texbin/pdflatex (file ./images/tutorialResult.pdf): PDF in
+clusion: found PDF version <1.5>, but at most version <1.4> allowed
+<images/tutorialResult.pdf, id=21446, 631.25435pt x 108.9912pt>
+File: images/tutorialResult.pdf Graphic file (type pdf)
 
-<use images/tutorialChart.pdf>pdfTeX warning (ext4): destination with the same 
-identifier (name{bodysubsection.3}) has been already used, duplicate ignored
+<use images/tutorialResult.pdf>pdfTeX warning (ext4): destination with the same
+ identifier (name{bodysubsection.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 \bodysubsection{Results}
-                              [27 <./images/tutorialChart.pdf>]
+l.111 \bodysubsection{Results}
+                               [31 <./images/tutorialResult.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/collaboration.pd
 f): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/histograms/collaboration.pdf, id=20918, 250.43562pt x 264.98898pt>
+<images/histograms/collaboration.pdf, id=21602, 250.43562pt x 264.98898pt>
 File: images/histograms/collaboration.pdf Graphic file (type pdf)
 
 <use images/histograms/collaboration.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/engagement.pdf):
  PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/histograms/engagement.pdf, id=20920, 250.43562pt x 264.98898pt>
+<images/histograms/engagement.pdf, id=21604, 250.43562pt x 264.98898pt>
 File: images/histograms/engagement.pdf Graphic file (type pdf)
 
 <use images/histograms/engagement.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/exploration.pdf)
 : PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/histograms/exploration.pdf, id=20922, 250.43562pt x 264.98898pt>
+<images/histograms/exploration.pdf, id=21606, 250.43562pt x 264.98898pt>
 File: images/histograms/exploration.pdf Graphic file (type pdf)
 
 <use images/histograms/exploration.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/expressiveness.p
 df): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/histograms/expressiveness.pdf, id=20924, 250.43562pt x 264.98898pt>
+<images/histograms/expressiveness.pdf, id=21608, 250.43562pt x 264.98898pt>
 File: images/histograms/expressiveness.pdf Graphic file (type pdf)
 
 <use images/histograms/expressiveness.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/tradeoff.pdf): P
 DF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/histograms/tradeoff.pdf, id=20926, 250.43562pt x 264.98898pt>
+<images/histograms/tradeoff.pdf, id=21610, 250.43562pt x 264.98898pt>
 File: images/histograms/tradeoff.pdf Graphic file (type pdf)
 
 <use images/histograms/tradeoff.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/transparency.pdf
 ): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/histograms/transparency.pdf, id=20928, 250.43562pt x 264.98898pt>
+<images/histograms/transparency.pdf, id=21612, 250.43562pt x 264.98898pt>
 File: images/histograms/transparency.pdf Graphic file (type pdf)
 
 <use images/histograms/transparency.pdf>pdfTeX warning (ext4): destination with
@@ -869,7 +888,7 @@ File: images/histograms/transparency.pdf Graphic file (type pdf)
 te ignored
 <to be read again> 
                    \relax 
-l.122 ...ection{Experience and Creativity Support}
+l.173 ...ection{Experience and Creativity Support}
                                                   
 Missing character: There is no Ê in font ptmr7t!
 Missing character: There is no Ê in font ptmr7t!
@@ -1001,13 +1020,13 @@ Missing character: There is no Ê in font ptmr7t!
 Missing character: There is no Ê in font ptmr7t!
 Missing character: There is no Ê in font ptmr7t!
 Missing character: There is no Ê in font ptmr7t!
-
+ [32]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-lCMWzs3C-77-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-lCMWzs3C-77-auto2.pdf, id=20932, 581.22847pt x 414.30583pt>
+<images/gallery/svg-lCMWzs3C-77-auto2.pdf, id=21622, 581.22847pt x 414.30583pt>
 File: images/gallery/svg-lCMWzs3C-77-auto2.pdf Graphic file (type pdf)
 <use images/gallery/svg-lCMWzs3C-77-auto2.pdf>
 
@@ -1015,7 +1034,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-iBaorUUg-69-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-iBaorUUg-69-auto2.pdf, id=20934, 105.95886pt x 99.93295pt>
+<images/gallery/svg-iBaorUUg-69-auto2.pdf, id=21624, 105.95886pt x 99.93295pt>
 File: images/gallery/svg-iBaorUUg-69-auto2.pdf Graphic file (type pdf)
 
 <use images/gallery/svg-iBaorUUg-69-auto2.pdf>
@@ -1024,14 +1043,14 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-HKI5oDTV-30-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-HKI5oDTV-30-auto2.pdf, id=20936, 445.00754pt x 115.51758pt>
+<images/gallery/svg-HKI5oDTV-30-auto2.pdf, id=21626, 445.00754pt x 115.51758pt>
 File: images/gallery/svg-HKI5oDTV-30-auto2.pdf Graphic file (type pdf)
 <use images/gallery/svg-HKI5oDTV-30-auto2.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-kJfnjNbc-4-auto
 2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
-<images/gallery/svg-kJfnjNbc-4-auto2.pdf, id=20938, 669.4009pt x 54.23532pt>
+<images/gallery/svg-kJfnjNbc-4-auto2.pdf, id=21628, 669.4009pt x 54.23532pt>
 File: images/gallery/svg-kJfnjNbc-4-auto2.pdf Graphic file (type pdf)
 
 <use images/gallery/svg-kJfnjNbc-4-auto2.pdf>
@@ -1040,7 +1059,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-lCMWzs3C-26-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-lCMWzs3C-26-auto2.pdf, id=20940, 512.36116pt x 71.45245pt>
+<images/gallery/svg-lCMWzs3C-26-auto2.pdf, id=21630, 512.36116pt x 71.45245pt>
 File: images/gallery/svg-lCMWzs3C-26-auto2.pdf Graphic file (type pdf)
 
 <use images/gallery/svg-lCMWzs3C-26-auto2.pdf>
@@ -1049,7 +1068,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-UBDlMBE2-29-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-UBDlMBE2-29-auto2.pdf, id=20942, 585.06078pt x 137.05405pt>
+<images/gallery/svg-UBDlMBE2-29-auto2.pdf, id=21632, 585.06078pt x 137.05405pt>
 File: images/gallery/svg-UBDlMBE2-29-auto2.pdf Graphic file (type pdf)
 <use images/gallery/svg-UBDlMBE2-29-auto2.pdf>
 
@@ -1057,7 +1076,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-47GM6Lk3-87-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-47GM6Lk3-87-auto2.pdf, id=20944, 441.40108pt x 532.2595pt>
+<images/gallery/svg-47GM6Lk3-87-auto2.pdf, id=21634, 441.40108pt x 532.2595pt>
 File: images/gallery/svg-47GM6Lk3-87-auto2.pdf Graphic file (type pdf)
 
 <use images/gallery/svg-47GM6Lk3-87-auto2.pdf>
@@ -1066,61 +1085,66 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-47GM6Lk3-61-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-47GM6Lk3-61-auto2.pdf, id=20947, 402.71153pt x 531.67334pt>
+<images/gallery/svg-47GM6Lk3-61-auto2.pdf, id=21637, 402.71153pt x 531.67334pt>
 File: images/gallery/svg-47GM6Lk3-61-auto2.pdf Graphic file (type pdf)
-<use images/gallery/svg-47GM6Lk3-61-auto2.pdf> [28]pdfTeX warning (ext4): desti
-nation with the same identifier (name{bodysubsubsection.2}) has been already us
-ed, duplicate ignored
+<use images/gallery/svg-47GM6Lk3-61-auto2.pdf> [33 <./images/histograms/collabo
+ration.pdf> <./images/histograms/engagement.pdf> <./images/histograms/explorati
+on.pdf> <./images/histograms/expressiveness.pdf> <./images/histograms/tradeoff.
+pdf> <./images/histograms/transparency.pdf>] [34 <./images/gallery/svg-lCMWzs3C
+-77-auto2.pdf> <./images/gallery/svg-iBaorUUg-69-auto2.pdf> <./images/gallery/s
+vg-HKI5oDTV-30-auto2.pdf> <./images/gallery/svg-kJfnjNbc-4-auto2.pdf> <./images
+/gallery/svg-lCMWzs3C-26-auto2.pdf> <./images/gallery/svg-UBDlMBE2-29-auto2.pdf
+> <./images/gallery/svg-47GM6Lk3-87-auto2.pdf> <./images/gallery/svg-47GM6Lk3-6
+1-auto2.pdf>]pdfTeX warning (ext4): destination with the same identifier (name{
+bodysubsubsection.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.191 ...ubsubsection{Experience and Productivity}
-                                                   [29 <./images/histograms/col
-laboration.pdf> <./images/histograms/engagement.pdf> <./images/histograms/explo
-ration.pdf> <./images/histograms/expressiveness.pdf> <./images/histograms/trade
-off.pdf> <./images/histograms/transparency.pdf>] [30 <./images/gallery/svg-lCMW
-zs3C-77-auto2.pdf> <./images/gallery/svg-iBaorUUg-69-auto2.pdf> <./images/galle
-ry/svg-HKI5oDTV-30-auto2.pdf> <./images/gallery/svg-kJfnjNbc-4-auto2.pdf> <./im
-ages/gallery/svg-lCMWzs3C-26-auto2.pdf> <./images/gallery/svg-UBDlMBE2-29-auto2
-.pdf> <./images/gallery/svg-47GM6Lk3-87-auto2.pdf> <./images/gallery/svg-47GM6L
-k3-61-auto2.pdf>]) (./chapters/chapter8.tex [31] [32]) (./chapters/chapter9.tex
-[33
+l.242 ...ubsubsection{Experience and Productivity}
+                                                  ) (./chapters/chapter7.tex
+[35] [36]) (./chapters/chapter8.tex [37
 
-] [34]pdfTeX warning (ext4): destination with the same identifier (name{bodysub
+] [38]pdfTeX warning (ext4): destination with the same identifier (name{bodysub
 section.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.10 \bodysubsection{Default Values}
-                                     [35
+                                     [39
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{bodysubsecti
 on.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.22 \bodysubsection{Primitives Graph}
-                                      pdfTeX warning (ext4): destination with t
-he same identifier (name{bodysubsection.3}) has been already used, duplicate ig
-nored
+l.24 \bodysubsection{Primitives Graph}
+                                       [40]pdfTeX warning (ext4): destination w
+ith the same identifier (name{bodysubsection.3}) has been already used, duplica
+te ignored
 <to be read again> 
                    \relax 
-l.36 ...subsection{Connections Between Primitives}
-                                                   [36]pdfTeX warning (ext4): d
-estination with the same identifier (name{bodysubsection.4}) has been already u
+l.41 ...subsection{Connections Between Primitives}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{bodysubsection.4}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.59 \bodysubsection{Set of Primitives}
+                                        [41]pdfTeX warning (ext4): destination 
+with the same identifier (name{bodysubsection.5}) has been already used, duplic
+ate ignored
+<to be read again> 
+                   \relax 
+l.76 ...subsection{Contextualizing Visualizations}
+                                                   [42]pdfTeX warning (ext4): d
+estination with the same identifier (name{bodysubsection.6}) has been already u
 sed, duplicate ignored
 <to be read again> 
                    \relax 
-l.48 \bodysubsection{Set of Primitives}
-                                       pdfTeX warning (ext4): destination with 
-the same identifier (name{bodysubsection.5}) has been already used, duplicate i
-gnored
-<to be read again> 
-                   \relax 
-l.58 \bodysubsection{Creativity Support}
-                                         [37]) (./chapters/chapter10.tex
-[38]) (./chapters/appendix.tex [39
+l.82 \bodysubsection{Creativity Support}
+                                        ) (./chapters/chapter9.tex [43]
+[44]) (./chapters/appendix.tex [45
 
-]) [40
+] [46]) [47
 
-] (./dissertation.bbl [41]
+] (./dissertation.bbl [48]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -1129,29 +1153,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--157
 []\OT1/ptm/m/n/12 B. Vic-tor.  Draw-ing Dy-namic Vi-su-al-iza-tions.
  []
 
-[42]) [43] (./dissertation.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+[49]) [50] (./dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 9853 strings out of 493848
- 142413 string characters out of 3149207
- 253801 words of memory out of 3000000
- 12718 multiletter control sequences out of 15000+200000
+ 9882 strings out of 493848
+ 142942 string characters out of 3149207
+ 251260 words of memory out of 3000000
+ 12736 multiletter control sequences out of 15000+200000
  21619 words of font info for 54 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  53i,8n,92p,583b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2009/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texliv
-e/2009/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/tex
-mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (51 pages, 8979253 bytes).
+{/usr/local/texlive/2009/texmf-dist/fonts/enc/
+dvips/base/8r.enc}</usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmtt12.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/urw/times/utmr8a.p
+fb></usr/local/texlive/2009/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on dissertation.pdf (58 pages, 10099879 bytes).
 PDF statistics:
- 23297 PDF objects out of 26593 (max. 8388607)
- 132 named destinations out of 1000 (max. 500000)
- 487 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23995 PDF objects out of 26593 (max. 8388607)
+ 142 named destinations out of 1000 (max. 500000)
+ 491 words of extra memory for PDF output out of 10000 (max. 10000000)
 

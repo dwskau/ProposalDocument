@@ -3,46 +3,44 @@
 \contentsline {bodychapter}{\numberline {1}INTRODUCTION}{1}{bodychapter.1}
 \contentsline {bodychapter}{\numberline {2}RELATED WORK}{3}{bodychapter.2}
 \contentsline {bodysubsection}{\numberline {2.0.1}Theory}{3}{bodysubsection.1}
-\contentsline {bodysubsection}{\numberline {2.0.2}Tools}{4}{bodysubsection.2}
-\contentsline {bodysubsection}{\numberline {2.0.3}Creativity Support}{5}{bodysubsection.3}
-\contentsline {bodysubsection}{\numberline {2.0.4}}{6}{bodysubsection.4}
+\contentsline {bodysubsection}{\numberline {2.0.2}Tools}{5}{bodysubsection.2}
+\contentsline {bodysubsection}{\numberline {2.0.3}Creativity Support}{6}{bodysubsection.3}
 \contentsline {bodychapter}{\numberline {3}COGNITIVE MOTIVATION}{7}{bodychapter.3}
 \contentsline {bodysubsection}{\numberline {3.0.1}The Information Visualization Model}{7}{bodysubsection.1}
 \contentsline {bodysubsection}{\numberline {3.0.2}Cognitive Models}{8}{bodysubsection.2}
-\contentsline {bodysubsection}{\numberline {3.0.3}}{9}{bodysubsection.3}
-\contentsline {bodychapter}{\numberline {4}MODEL}{10}{bodychapter.4}
+\contentsline {bodychapter}{\numberline {4}VISUALIZATION PRIMITIVES}{10}{bodychapter.4}
 \contentsline {bodysubsection}{\numberline {4.0.1}Prototypes}{10}{bodysubsection.1}
 \contentsline {bodysubsection}{\numberline {4.0.2}Visual Properties}{11}{bodysubsection.2}
 \contentsline {bodysubsubsection}{\numberline {4.0.2.1}Internal Geometric Relationships}{12}{bodysubsubsection.1}
-\contentsline {bodysubsection}{\numberline {4.0.3}Iteration}{12}{bodysubsection.3}
-\contentsline {bodysubsection}{\numberline {4.0.4}Data}{13}{bodysubsection.4}
-\contentsline {bodysubsubsection}{\numberline {4.0.4.1}Mappings}{13}{bodysubsubsection.1}
-\contentsline {bodysubsubsection}{\numberline {4.0.4.2}Connections}{14}{bodysubsubsection.2}
-\contentsline {bodysubsection}{\numberline {4.0.5}Axes and Layout}{15}{bodysubsection.5}
-\contentsline {bodychapter}{\numberline {5}EXAMPLES}{16}{bodychapter.5}
-\contentsline {bodysubsection}{\numberline {5.0.1}Bar Chart}{16}{bodysubsection.1}
-\contentsline {bodysubsection}{\numberline {5.0.2}Scatterplot}{17}{bodysubsection.2}
-\contentsline {bodysubsection}{\numberline {5.0.3}Line Chart}{18}{bodysubsection.3}
-\contentsline {bodysubsection}{\numberline {5.0.4}Heat Maps}{19}{bodysubsection.4}
-\contentsline {bodysubsection}{\numberline {5.0.5}Waterfall Chart}{20}{bodysubsection.5}
-\contentsline {bodysubsection}{\numberline {5.0.6}Glyphs}{21}{bodysubsection.6}
-\contentsline {bodychapter}{\numberline {6}STUDY DESIGN}{23}{bodychapter.6}
-\contentsline {bodychapter}{\numberline {7}EXPERIMENT}{25}{bodychapter.7}
-\contentsline {bodysubsection}{\numberline {7.0.1}Materials}{25}{bodysubsection.1}
-\contentsline {bodysubsection}{\numberline {7.0.2}Procedure}{26}{bodysubsection.2}
-\contentsline {bodysubsection}{\numberline {7.0.3}Results}{27}{bodysubsection.3}
-\contentsline {bodysubsubsection}{\numberline {7.0.3.1}Experience and Creativity Support}{28}{bodysubsubsection.1}
-\contentsline {bodysubsubsection}{\numberline {7.0.3.2}Experience and Productivity}{31}{bodysubsubsection.2}
-\contentsline {bodysubsubsection}{\numberline {7.0.3.3}General CSI Results}{31}{bodysubsubsection.3}
-\contentsline {bodysubsubsection}{\numberline {7.0.3.4}Example Visualizations}{31}{bodysubsubsection.4}
-\contentsline {bodychapter}{\numberline {8}DISCUSSION}{33}{bodychapter.8}
-\contentsline {bodychapter}{\numberline {9}FUTURE WORK}{35}{bodychapter.9}
-\contentsline {bodysubsection}{\numberline {9.0.1}Default Values}{35}{bodysubsection.1}
-\contentsline {bodysubsection}{\numberline {9.0.2}Primitives Graph}{36}{bodysubsection.2}
-\contentsline {bodysubsection}{\numberline {9.0.3}Connections Between Primitives}{36}{bodysubsection.3}
-\contentsline {bodysubsection}{\numberline {9.0.4}Set of Primitives}{37}{bodysubsection.4}
-\contentsline {bodysubsection}{\numberline {9.0.5}Creativity Support}{38}{bodysubsection.5}
-\contentsline {bodychapter}{\numberline {10}CONCLUSION}{39}{bodychapter.10}
-\contentsline {bodychapter}{\numberline {11}APPENDIX}{40}{bodychapter.11}
-\contentsline {bodychapter}{REFERENCES}{41}{bodychapter.11}
+\contentsline {bodysubsection}{\numberline {4.0.3}Iteration}{13}{bodysubsection.3}
+\contentsline {bodysubsection}{\numberline {4.0.4}Data}{14}{bodysubsection.4}
+\contentsline {bodysubsubsection}{\numberline {4.0.4.1}Mappings}{14}{bodysubsubsection.1}
+\contentsline {bodysubsubsection}{\numberline {4.0.4.2}Connections}{15}{bodysubsubsection.2}
+\contentsline {bodysubsection}{\numberline {4.0.5}Axes and Layout}{16}{bodysubsection.5}
+\contentsline {bodychapter}{\numberline {5}EXAMPLES}{18}{bodychapter.5}
+\contentsline {bodysubsection}{\numberline {5.0.1}Bar Chart}{19}{bodysubsection.1}
+\contentsline {bodysubsection}{\numberline {5.0.2}Scatterplot}{21}{bodysubsection.2}
+\contentsline {bodysubsection}{\numberline {5.0.3}Line Chart}{22}{bodysubsection.3}
+\contentsline {bodysubsection}{\numberline {5.0.4}Heat Maps}{23}{bodysubsection.4}
+\contentsline {bodysubsection}{\numberline {5.0.5}Waterfall Chart}{23}{bodysubsection.5}
+\contentsline {bodysubsection}{\numberline {5.0.6}Glyphs}{24}{bodysubsection.6}
+\contentsline {bodychapter}{\numberline {6}EXPERIMENT}{27}{bodychapter.6}
+\contentsline {bodysubsection}{\numberline {6.0.1}Materials}{28}{bodysubsection.1}
+\contentsline {bodysubsection}{\numberline {6.0.2}Procedure}{30}{bodysubsection.2}
+\contentsline {bodysubsection}{\numberline {6.0.3}Results}{31}{bodysubsection.3}
+\contentsline {bodysubsubsection}{\numberline {6.0.3.1}Experience and Creativity Support}{32}{bodysubsubsection.1}
+\contentsline {bodysubsubsection}{\numberline {6.0.3.2}Experience and Productivity}{35}{bodysubsubsection.2}
+\contentsline {bodysubsubsection}{\numberline {6.0.3.3}General CSI Results}{35}{bodysubsubsection.3}
+\contentsline {bodysubsubsection}{\numberline {6.0.3.4}Example Visualizations}{35}{bodysubsubsection.4}
+\contentsline {bodychapter}{\numberline {7}DISCUSSION}{37}{bodychapter.7}
+\contentsline {bodychapter}{\numberline {8}FUTURE WORK}{39}{bodychapter.8}
+\contentsline {bodysubsection}{\numberline {8.0.1}Default Values}{39}{bodysubsection.1}
+\contentsline {bodysubsection}{\numberline {8.0.2}Primitives Graph}{40}{bodysubsection.2}
+\contentsline {bodysubsection}{\numberline {8.0.3}Connections Between Primitives}{41}{bodysubsection.3}
+\contentsline {bodysubsection}{\numberline {8.0.4}Set of Primitives}{42}{bodysubsection.4}
+\contentsline {bodysubsection}{\numberline {8.0.5}Contextualizing Visualizations}{42}{bodysubsection.5}
+\contentsline {bodysubsection}{\numberline {8.0.6}Creativity Support}{43}{bodysubsection.6}
+\contentsline {bodychapter}{\numberline {9}CONCLUSION}{45}{bodychapter.9}
+\contentsline {bodychapter}{\numberline {10}APPENDIX}{47}{bodychapter.10}
+\contentsline {bodychapter}{REFERENCES}{48}{bodychapter.10}
 \contentsfinish 

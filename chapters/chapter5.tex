@@ -1,8 +1,35 @@
 \bodychapter{EXAMPLES}
 \label{examples}
 
-In order to help explain the property mapping process, we present a few examples.
-These examples show how to construct existing familiar visualization types.
+In order to help explain the property mapping process, we present an introduction to the interface, followed by a few examples.
+
+The interface (Figure~\ref{fig:interface}) has four main components.
+The left side contains a list of all of the data dimensions loaded into the tool.
+The green figures at the top of the screen are buttons for creating new primitives.
+In Figure~\ref{fig:interface}, the circle on the right side with the lists of items is a prototype circle primitive.
+The golden list on the left side of the circle is the input properties, and the blue list on the right side is the output data from the primitive.
+The triangles above each property are scale handles.
+
+Mousing over each property shows the current scale value, and if the property is mapped, highlights the data field that the property is connected to (in this case, area is connected to EmploymentRate).
+The grayed out properties are not available because area is mapped, and through the internal geometric relationships that defines the radius and circumference of the circle.
+Property mappings are accomplished by clicking on any blue data buttons, and then clicking on any gold property buttons.
+Scaling of a mapped property is accomplished by clicking and dragging the triangular handle left or right.
+
+The blue circles are the instances of the primitive that are being specified by the prototype circle.
+Together they show the visualization that is produced by the mappings of the prototype.
+To prevent occlusion of the visualization, the prototype can be moved around the canvas area by clicking and dragging.
+The visualization itself can also be moved around the canvas to help keep all instances on screen (in the case of extremely high or low values).
+Dragging the visualization will move all instances of all primitives as a group, in order to keep the data defined relationships intact.
+(To try the interface yourself, you may visit~\url{http://visualizationprimitives.net}.)
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{images/interface.pdf}
+\caption{The interface for the current implementation of Visualization Primitives.}
+\label{fig:interface}
+\end{figure*}
+
+The following examples show how to construct existing familiar visualization types.
 Some of them show interesting concepts that are highlighted when producing visualizations from a primitives based approach.
 Along with the description of how to construct them, we present versions of each visualization created with our current implementation of visualization primitives.
 
@@ -91,6 +118,7 @@ The remaining properties are all administrative, and only serve to create the la
 For point primitives in our implementation, the connectedness of the points is also a property.
 This allows connections to be driven by data, although in a line chart, connections are mapped to a constant value to turn them on for all instances (Figure~\ref{fig:lineChart}).
 When the point primitive draws its instances in the visualization view, it grabs the position for the connection's other end from its previous sibling in the data.
+In our current implementation, this uses the existing order of data, however future implementations will include ways to sort data by any of the data dimensions.
 
 \begin{figure*}[t]
    \centering
@@ -152,6 +180,7 @@ The left side comes from the right side of the lifespan rectangle, while the ver
 Glyphs~\cite{Horn1998} are often used to create small multiples for comparison.
 An example of this technique implemented in our system can be seen in Figure~\ref{fig:cars}.
 The visualization is built using the cars dataset.
+This visualization is not an existing chart type, but is an example of a novel visualization created using visualization primitives.
 Four primitives make up each glyph, with each primitive representing a dimension of the data.
 Horsepower is the width of the blue rectangles, fuel efficiency is the width of the green rectangles.
 The yellow-green ``wheels'' show weight, while the blue ``wheels'' show acceleration.

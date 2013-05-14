@@ -5,12 +5,10 @@
 \BOOKMARK [0][-]{bodysubsection.1}{Theory}{}
 \BOOKMARK [0][-]{bodysubsection.2}{Tools}{}
 \BOOKMARK [0][-]{bodysubsection.3}{Creativity Support}{}
-\BOOKMARK [0][-]{bodysubsection.4}{}{}
 \BOOKMARK [0][-]{bodychapter.3}{COGNITIVE MOTIVATION}{}
 \BOOKMARK [0][-]{bodysubsection.1}{The Information Visualization Model}{}
 \BOOKMARK [0][-]{bodysubsection.2}{Cognitive Models}{}
-\BOOKMARK [0][-]{bodysubsection.3}{}{}
-\BOOKMARK [0][-]{bodychapter.4}{MODEL}{}
+\BOOKMARK [0][-]{bodychapter.4}{VISUALIZATION PRIMITIVES}{}
 \BOOKMARK [0][-]{bodysubsection.1}{Prototypes}{}
 \BOOKMARK [0][-]{bodysubsection.2}{Visual Properties}{}
 \BOOKMARK [0][-]{bodysubsubsection.1}{Internal Geometric Relationships}{}
@@ -26,8 +24,7 @@
 \BOOKMARK [0][-]{bodysubsection.4}{Heat Maps}{}
 \BOOKMARK [0][-]{bodysubsection.5}{Waterfall Chart}{}
 \BOOKMARK [0][-]{bodysubsection.6}{Glyphs}{}
-\BOOKMARK [0][-]{bodychapter.6}{STUDY DESIGN}{}
-\BOOKMARK [0][-]{bodychapter.7}{EXPERIMENT}{}
+\BOOKMARK [0][-]{bodychapter.6}{EXPERIMENT}{}
 \BOOKMARK [0][-]{bodysubsection.1}{Materials}{}
 \BOOKMARK [0][-]{bodysubsection.2}{Procedure}{}
 \BOOKMARK [0][-]{bodysubsection.3}{Results}{}
@@ -35,13 +32,14 @@
 \BOOKMARK [0][-]{bodysubsubsection.2}{Experience and Productivity}{}
 \BOOKMARK [0][-]{bodysubsubsection.3}{General CSI Results}{}
 \BOOKMARK [0][-]{bodysubsubsection.4}{Example Visualizations}{}
-\BOOKMARK [0][-]{bodychapter.8}{DISCUSSION}{}
-\BOOKMARK [0][-]{bodychapter.9}{FUTURE WORK}{}
+\BOOKMARK [0][-]{bodychapter.7}{DISCUSSION}{}
+\BOOKMARK [0][-]{bodychapter.8}{FUTURE WORK}{}
 \BOOKMARK [0][-]{bodysubsection.1}{Default Values}{}
 \BOOKMARK [0][-]{bodysubsection.2}{Primitives Graph}{}
 \BOOKMARK [0][-]{bodysubsection.3}{Connections Between Primitives}{}
 \BOOKMARK [0][-]{bodysubsection.4}{Set of Primitives}{}
-\BOOKMARK [0][-]{bodysubsection.5}{Creativity Support}{}
-\BOOKMARK [0][-]{bodychapter.10}{CONCLUSION}{}
-\BOOKMARK [0][-]{bodychapter.11}{APPENDIX}{}
-\BOOKMARK [0][-]{bodychapter.11}{REFERENCES}{}
+\BOOKMARK [0][-]{bodysubsection.5}{Contextualizing Visualizations}{}
+\BOOKMARK [0][-]{bodysubsection.6}{Creativity Support}{}
+\BOOKMARK [0][-]{bodychapter.9}{CONCLUSION}{}
+\BOOKMARK [0][-]{bodychapter.10}{APPENDIX}{}
+\BOOKMARK [0][-]{bodychapter.10}{REFERENCES}{}

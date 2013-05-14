@@ -6,15 +6,18 @@ Visualization primitives build on existing work on the theory of visualization, 
 \label{theory}
 
 Information visualization is mostly understood as the visualization of discrete data points~\cite{tory2004rethinking}.
-Each data point is represented by a visual \textit{mark}, according to Bertin's highly influential work from the 1960s~\cite{bertin1983semiology}.
-Bertin defined marks as graphical objects with visual (or \textit{retinal}) properties.
+By contrast, Scientific visualization typically uses discretely sampled data that represents continuous data.
+This distinction means that the visual representations can be treated as individuals for each data item.
+In InfoVis, each data point is represented by a visual \textit{mark}, according to Bertin's highly influential work from the 1960s~\cite{bertin1983semiology}.
+Bertin defined marks as graphical objects with visual (or \textit{retinal}) properties such as color, size, or position.
 
 Mackinlay's APT system~\cite{Mackinlay1986} was directly based on Bertin's work, and the first one to create tailored visualizations for a dataset.
-APT's goal was the automatic generation of the visualization, however, not supporting the user's creativity.
+APT's goal was the automatic generation of the visualization, however, not specifically supporting the user's creativity.
 SAGE~\cite{Roth:CHI:1994} provided similar functionality, but also primarily oriented at data rather than visual design.
 Tableau~\cite{stolte2002polaris}, which is partly based on the ideas behind APT, goes in a similar direction, though the user can construct visualizations from scratch.
 Tableau's expressive power is  limited to a relatively small number of plot types, however.
 We want the user to be able to create entirely new types of visualizations quickly and easily.
+In order to do this, a system that effectively supports creativity in the creation process may be necessary.
 
 Card and Mackinlay developed a notation for analyzing the visual mappings used in visualizations~\cite{Card1997}.
 Their goal was to connect point designs into a coherent design space, which then could be explored more effectively.
@@ -34,8 +37,10 @@ Visualization toolkits like prefuse~\cite{heer2005prefuse}, Protovis~\cite{bosto
 While they elegantly abstract away many common tasks, they do require considerable programming knowledge, however.
 This is a major hurdle for many potential users of such tools, like journalists and designers.
 
-Other tools that do not require actual programing, like Quadrigram~\cite{url:quadrigram,Ortiz2010} and DEFOG~\cite{Lins:TR:2011}, are still strongly influenced by computing constructs.
+Other tools that do not require programing, like Quadrigram~\cite{url:quadrigram,Ortiz2010} and DEFOG~\cite{Lins:TR:2011}, are still strongly influenced by computing constructs.
 Building a visualization using Quadrigram's data flow paradigm requires many steps that are effectively function calls, and are based on typical operations available in programming languages.
+This approach is conceptually different because it focuses the user on algorithms to reshape the data.
+These algorithms are modifiable and adaptable, but still result in conceptualizing the visualization as a pipeline from original data to what gets drawn on screen.
 DEFOG is also driven by data rather than the visual representation; that is a useful property for a data analysis tool, but it does not help designers construct new and interesting visualizations.
 
 Several systems infer visualizations from hand drawn sketches, or abstractly created objects.
@@ -60,5 +65,4 @@ Evaluating a tool's support of creativity is somewhat easier, as it does not dep
 The Creativity Support Index (CSI)~\cite{carroll2009creativity} provides a system for measuring a tool's ability to support creativity.
 It uses a set of six factors, ranked with Likert scales, followed by a set of fifteen ranked pairs to prioritize the factors.
 The results of the index are a value out of 100, with 100 supporting creativity perfectly.
-\bodysubsection{}
-\label{}
+(For more on the CSI, refer to section~\ref{materials}.)

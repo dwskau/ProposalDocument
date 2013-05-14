@@ -2,15 +2,25 @@
 \label{Intro}
 
 Creating new types of visualization invariably requires programming.
-Tools like Tableau create visualizations based on data and user input, but are limited to a relatively narrow selection of visualization types.
-Many designers are trying their hands on visualization frameworks like D3.js~\cite{bostock2011d3}, but are not familiar enough with the programming concepts involved to be very effective.
+Tools like Tableau~\cite{stolte2002polaris} create visualizations based on data and user input, but are limited to a relatively narrow selection of visualization types.
+Many designers are trying their hands on visualization frameworks like D3~\cite{bostock2011d3}, but are not familiar enough with the programming concepts involved to be very effective.
 At the same time, the theory of visual representation has not advanced much since the seminal work by Bertin~\cite{bertin1983semiology} and Mackinlay~\cite{Mackinlay1986}.
 I believe that both problems can be solved by a fresh look at the nature of visual representation in visualization.
 
 I propose a new model for the representation of data in information visualization: visualization primitives.
 Like graphical primitives, visualization primitives are simple geometrical objects that can be combined into more complex ones.
+The model provides easy access to the visual variables that each primitive object has (Figure~\ref{fig:primitive}).
+The visual variables are similar to Bertin's retinal properties~\cite{bertin1983semiology}, and are customized per primitive to match the affordances of the primitive.
 In addition to just the graphical component, however, visualization primitives also connect to data and, in turn, produce output data.
+Automatic iteration through the data gives the user an experience of rapid visualization prototyping with immediate visual feedback.
 By designing simple prototypes and applying data to them, users can quickly create many different visualizations in a very short time.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{images/primitive.pdf}
+\caption{A primitive rectangle in our implementation.}
+\label{fig:primitive}
+\end{figure*}
 
 The goals of this work are as follows.
 On the theory side, I want to develop a new model of visual data representation.
@@ -18,6 +28,6 @@ I believe that current models that are based on pipelines are too limited and do
 On the practical side, I believe that this model will translate into tools that will make it easier for non-technical users~-- such as designers, illustrators, and journalists~-- to create new visualizations from scratch.
 Designers are already accustomed to working with graphical objects, and manually change them to represent data.
 Using visualization primitives, they are now able to design prototypes that automatically and immediately represent the data.
-
-I believe this approach will support creativity in visualization creation.
-The immediacy of the feedback promotes exploration of the visualization design space.
+I also believe that this model could benefit the teaching of data visualization concepts.
+By focusing on the essential components of assigning data to visual variables, the model and implementation can help to communicate the core concepts behind InfoVis.
+A conceptual understanding of these core components sets up a good foundation for learning the more complex components of data visualization.

@@ -41,6 +41,5 @@
 \contentsline {bodysubsection}{\numberline {8.0.5}Contextualizing Visualizations}{42}{bodysubsection.5}
 \contentsline {bodysubsection}{\numberline {8.0.6}Creativity Support}{43}{bodysubsection.6}
 \contentsline {bodychapter}{\numberline {9}CONCLUSION}{45}{bodychapter.9}
-\contentsline {bodychapter}{\numberline {10}APPENDIX}{47}{bodychapter.10}
-\contentsline {bodychapter}{REFERENCES}{48}{bodychapter.10}
+\contentsline {bodychapter}{REFERENCES}{47}{bodychapter.9}
 \contentsfinish 

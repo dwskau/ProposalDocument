@@ -1,101 +1,19 @@
 \bodychapter{FUTURE WORK}
 \label{futureWork}
-The visualization primitives model has proven to be effective at some things, however there are still limitations due to the implementation.
-There are several areas that need to be re-examined in order to further the work and test more of the model.
-Many of these areas deal with the implementation of the model, and they will help to round out the capabilities of the tool, and ensure it covers a sufficiently sized design space.
-Some of the areas are related more to modifications of the implementation, not directly related to the model.
-These modifications will help to improve the overall function, and remove some of the buggier behavior of the implementation.
-The areas that could result in the most striking improvements in creativity support deal with the interface, and are needed mostly to help users achieve a flow state.
 
-\bodysubsection{Default Values}
-\label{defaultValues}
-In the current implementation, there are no default values assigned to any of the properties.
-This results in there being no feedback to the user when they map properties that require multiple other properties to also be mapped.
-Once the necessary subset of properties has been mapped, the primitive can draw itself, but in the intermediate time, the primitive does nothing.
-For example, a rectangle primitive needs two horizontal properties mapped out of four, and two vertical properties mapped out of four.
-Without default values, the primitive cannot draw itself until four out of those eight properties have been mapped.
+Putting the lessons learned into practice is the next step of the process.
+The publication opportunities that are most appropriate for this work set the timeline for improvements to the interface and conducting studies.
+The next feasible deadline is early December 2013.
+To prepare for this deadline, and future deadlines beyond it, the interface needs to be given a lot of attention.
+I would like to achieve all of the interface improvements in Section~\ref{interfaceImprovements}.
+This puts the implementation on a good footing to have several studies run against it with only minor changes between each study.
 
-To complicate things further, knowing which properties to assign defaults to depends on the internal geometric relationships of the primitive.
-The best way to solve this is probably a decision tree that chooses which defaults to assign based on what else has been assigned already.
-The important part of this decision tree structure is how it fits into the internal geometric relationship architecture, and how it gets initiated in the mapping assignment.
+The study design needs to be adjusted heavily to account for the addition of the CAT, and to encourage participants to complete the tasks more thoroughly.
+Providing a task will help with completion, but it may be even more important to run the study with individuals in a lab setting rather than over the internet.
+This also makes it simpler to monetarily reward participants for their participation, and provide further motivation.
+Using contacts in the visualization domain, I anticipate access to a handful of students studying visualization, as well as a small collection of information designers working in the visualization space.
+This group provides a set of participants that are likely familiar with data visualization concepts, with a high likelihood of being able to perform creative tasks using the tool.
 
-Fixing this so that there is always immediate feedback should help the user experience 
-
-\bodysubsection{Primitives Graph}
-\label{primitivesGraph}
-The visualization primitives model allows for dependency relationships to occur between the properties of primitives.
-These dependencies are represented through mappings.
-
-Mappings in the current implementation record connections between data output, and a property.
-The system for storing them is simplistic, as each only belongs to the parent primitive.
-There are currently no methods for traversing the structures of mappings that can be created.
-This presents problems with updating child primitives when a parent primitive is modified.
-
-A proper system for storing mappings would allow traversal of the mappings, and prevent circular traversals when a loop is present in the structure.
-The current implementation also means that scaling of values is clumsy when those values come from a parent primitive and not the original data.
-A better structure would allow the properties to retrieve the scale value from the parent and modify it rather than just multiplying their own scale value on top.
-
-This structure will allow for a better interface and more consistent experience with scaling data inputs to properties.
-This should help the user to achieve a flow state by making the interface control behavior more intuitively.
-
-\bodysubsection{Connections Between Primitives}
-\label{primConnectionsFW}
-Currently, the interface provides buttons for each visual property that a primitive has, and output buttons that pass the primitive's data through.
-This interface works for testing the model, but it is hardly user-friendly.
-Ideally, the interface should feel much more natural, and have the same feeling of direct connections that come from the implementation's immediate feedback.
-
-As mentioned, one possible way to accomplish that is through using the location of the prototypes relative to each other to help determine the spatial relationships between primitives.
-This type of connection feels physical, and would be relatively intuitive to users.
-However spatial relationships cannot define mappings for properties like color, rotation, or line weight.
-These mappings sill need some sort of input and output interface, and may require things like icon representations or other interface elements to allow their mapping.
-The interactions of connecting abstract visual properties of different objects are new, and there are not many metaphors to the physical world.
-Inspiration for these elements could, however, be drawn from layout or drawing tools.
-
-For example, rotation of an object in many vector drawing programs is accomplished using a handle on the object.
-Perhaps using a similar handle for controlling rotation would improve the intuitiveness of the connection process.
-Unfortunately, interface elements borrowed from drawing tools may not be intuitive for users that are not familiar with them.
-Testing of several different approaches may be necessary to determine what interactions are simplest to grasp and use for most users.
-
-\bodysubsection{Set of Primitives}
-\label{setPrimitivesFW}
-The set of primitives provided by the system has the most profound impact on what can be created with the system.
-The current set is definitely not ideal.
-Future tweaking of the set should help to optimize the balance between simplicity and flexibility.
-
-One potential way to proceed with this is to build a list of visualizations that fall within the theoretical constraints of the system (tabular data, non-iterative layouts, etc.)
-Establishing which visualizations in the list cannot be created with the current set of primitives will help to identify possible primitives that should be created.
-It also may be possible to tweak the properties and internal geometric representations of existing primitives to allow the creation of other visualizations.
-
-Identifying which primitives to add, and which to remove (when there is excessive overlap in their capabilities) is the difficult part.
-The best way to achieve this may be to select the primitives that cover the greatest range of visualization techniques that are not possible with the current set.
-By aiming for the best coverage first, corner cases can be identified, and helpful modifications to existing primitives should be easier to find.
-
-Once the list of theoretically possible visualizations can all be created with the implementation, the implementation will be complete.
-This still will not mean that the set of primitives is optimal for a given task, but it does guarantee maximum flexibility of the system.
-
-\bodysubsection{Contextualizing Visualizations}
-\label{contextualize}
-One possible application of the model is to help contextualize current visualizations.
-I would like to use the visualization primitives model to help classify visualizations.
-The theoretical constraints of the model closely match many of the core concepts in the InfoVis model, and could provide helpful new ways to categorize existing visualization techniques.
-
-\bodysubsection{Creativity Support}
-\label{creativitySupportFW}
-The initial evaluation of creativity support had several issues.
-Aside from using an earlier version of the CSI, the tutorial teaching people how to use the system probably needed to be enforced better.
-Several people didn't finish the tutorial entirely before exploring on their own and continuing the study.
-This is a minor issue, and easily fixable in the next study.
-
-It would also be good to provide a task for participants to perform.
-The participants of the last study seemed to just play around with the visuals, and not think much about 
-A goal will help to focus people and give them constraints to work within.
-
-The difficulty in this task is finding a goal that strikes a good balance between open ended solutions, and providing focus.
-If the goal is too open ended, it will not serve as a motivator.
-But if the goal is too constrained, there will be a small handful of solutions and no creative solutions will be generated.
-One possible way to alleviate this is to pick a more focused goal, and follow it up with a period of free exploration for users to express their creativity.
-
-Despite creativity being a component of what the tool supports, creativity support is not the only goal of the model.
-The primary goal of the model is to provide an alternative method to conceptualize visualization creation.
-This method could help teach the concept of data visualization, and to help build other tools or toolkits for creating data visualizations.
-Evaluating the tool's ability to support creativity is a means to evaluate the model's possibilities.
+Studies beyond this one will be based somewhat on the results of the study, but the main goals will be to establish the creativity support of the visualization primitives model.
+Another possible angle to examine is whether the model supports creativity better because of how closely it matches the mental model of visualization creators.
+If this turns out to be true, then the work will make a significant contribution to our understanding of information visualization, and can be used in the development of visualization theory.

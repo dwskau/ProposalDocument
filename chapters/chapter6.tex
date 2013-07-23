@@ -5,6 +5,11 @@ One aim of the visualization primitives model is to enable creativity during the
 Given this goal, tests to measure the implementation need to evaluate the ability of the tool to support creativity.
 This means that a user study will not evaluate visualization primitives against other tools using tests of task efficiency, or other similar metrics.
 Instead, we employ the Creativity Support Index (CSI)~\cite{carroll2009creativity} to evaluate the tool's ability to support creativity.
+
+CSI scores are an index out of 100.
+The value is intended to provide a summation of a tool's ability to support creativity.
+Along with the indexed score, there are ranked pairs that are also useful for ranking individual components of a tool's creativity support.
+For example, support of exploration, effort vs. reward tradeoff, engagement, etc.
 The CSI is based closely on a tool’s ability to support a “flow state” for the user.
 
 The study is intended to measure the tool's ability to support creativity, not to quantify the quality of visualizations that are produced.
@@ -14,7 +19,6 @@ Creativity depends on several components, including the mind of the creator, and
 We have included examples of ``creative'' visualizations generated with visualization primitives, however, these are anecdotal.
 Evaluating how creative they are is a secondary issue to how well visualization primitives support creativity.
 
-The nature of creativity requires that the user study be flexible about regulations.
 Tasks that ask a user to find a certain thing in the data could provide inspiration, but they could also constrain thought processes.
 Time limits impose pressure that could help or hinder the creative thought process.
 We have opted to remove external pressures in the study, allowing participants to build visualizations at their own pace, setting their own tasks along the way.
@@ -35,7 +39,7 @@ Specifically, we formed the following hypotheses regarding Visualization Primiti
 % can re-order these elements if needed
 The materials used in this experiment consist of three main elements: the dataset, visualization-specific demographics, and the Creativity Support Index.
 
-We chose to use the Better Life Index as a dataset for several reasons.
+We chose to use the Better Life Index~\cite{url:bli} as a dataset for several reasons.
 Primarily, the dataset has been used previously for a creative flower based visualization~\cite{url:bli}.
 The dataset is also socially relevant since it contains information on several different countries.
 This means a wider group of people may find the data relevant to themselves, encouraging participation.
@@ -115,8 +119,9 @@ As with many online studies, participation drastically fell off with each step.
 875 participants made it past the introduction page.
 674 answered the demographic information.
 95 participants completed the tutorial.
-44 completed the CSI, and only 31 of those built anything beyond the tutorial before answering the CSI.
-Participants who answered the CSI and completed the tutorial made an average of 14 (median of 8) mappings.
+The tutorial was considered a necessary component because without it, the users were not fully introduced to the tool's features.
+Of those who completed the tutorial, 44 completed the CSI, and only 31 of those built anything beyond the tutorial before answering the CSI.
+Those 31 participants made an average of 14 (median of 8) mappings.
 Participants who did not answer the CSI, but completed the tutorial, made an average of 9 (median of 6) mappings.
 For the participants who answered the CSI, their average time with the primitives was 21 minutes, with a median of 13, and standard deviation of 23.
 Not including submissions made during the tutorial, a total of 1060 SVG files were generated.
@@ -173,7 +178,11 @@ Since a 20-point scale was used for the visualization experience question, we di
 \bodysubsubsection{Experience and Creativity Support}
 \label{experienceAndCreativitySupport}
 
-CSI scores are an index out of 100. They are calculated by combining ranked pairs with Likert scale results. For each factor, the Likert scale results are multiplied by the total factor count from the ranked pair portion. This value is then added to all the other factor results, and divided by 3 to arrive at an index out of 100. Table~\ref{table:factorRankings} and Figure~\ref{fig:histograms} show the results.
+CSI scores are an index out of 100.
+They are calculated by combining ranked pairs with Likert scale results.
+For each factor, the Likert scale results are multiplied by the total factor count from the ranked pair portion.
+This value is then added to all the other factor results, and divided by 3 to arrive at an index out of 100.
+Table~\ref{table:factorRankings} and Figure~\ref{fig:histograms} show the CSI results for our experiment.
 
 \begin{table}
     \centering

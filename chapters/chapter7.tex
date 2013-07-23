@@ -19,3 +19,112 @@ Not all the results that participants created and submitted were strictly visual
 
 The considerable time spent on the site shows that they were engaged and interested in exploration, despite the user interface flaws.
 This suggests that tapping into users' creativity is a promising way of getting them interested in visualization.
+
+\bodysubsection{Lessons Learned}
+\label{lessonsLearned}
+
+This experiment was very obviously flawed in many ways, however it revealed to me that there were many components of visualization primitives that need work.
+The interface issues became a major hinderance to testing the model, and the experiment design itself needs a lot of improvement.
+The best course of action for proceeding is to take what I learned about the interface and spend a significant amount of time improving it.
+After the interface has been revisited, the experiments need to be planned to evaluate both the creativity of the product the participants create, and the creativity support of the application.
+
+In addition, the experiments need to provide more direction to the participants.
+Rather than a period of free exploration, the participants need to be given a task to achieve.
+This constraint should help to focus participants, and will make it possible to evaluate the creativity involved in what they produce. Some possible tasks would be: "Create three visualizations that answer x." or "Show a visualization that answers both x and y."
+Still including a period of open exploration before the tasks may help participants to become more familiar with the tool, and make it easier for them to achieve the given tasks later.
+
+Without knowing the purpose the participants had when creating a visualization, it is impossible to rate the usefulness of the visualization, and therefore impossible to evaluate how creative it was.
+Providing a task structure to participants means that the usefulness can be evaluated, and even ranked against other participant's produced visualizations.
+
+Evaluating creativity of the participant's product may be best accomplished through the use of the Consensual Assessment Technique (CAT)~\cite{Amabile1996}.
+The technique involves a panel of expert judges who spend time examining the "creative" works, and evaluating their creativity.
+A panel of three to five judges will be able to rate the creativity of what is created. This information can then be used in conjunction with the Creativity Support Index to better determine the creativity support of the tool, and validate the participant's answers to the CSI.
+
+Another change that should be made to the study is the participant selection. The shotgun approach of attracting random participants on the internet is likely partially responsible for the extremely low completion rate of the study. It also means that many participants were not as familiar with the concept of visualization, so their produced results were more like data art than visualization. Manually recruiting participants can help to constrain the group to individuals who are aware of things like Bertin's hierarchy of retinal variables~\cite{bertin1983semiology}. This will increase the likelihood that their visualizations will be useful for a task.
+
+\bodysubsection{Interface Improvements}
+\label{interfaceImprovements}
+The visualization primitives model has proven to be effective at some things, however there are still limitations due to the implementation.
+The areas that could result in the most striking improvements in creativity support deal with the interface, and are needed mostly to help users achieve a flow state.
+
+\bodysubsubsection{Default Values}
+\label{defaultValues}
+In the current implementation, there are no default values assigned to any of the properties.
+This results in there being no feedback to the user when they map properties that require multiple other properties to also be mapped.
+Once the necessary subset of properties has been mapped, the primitive can draw itself, but in the intermediate time, the primitive does nothing.
+For example, a rectangle primitive needs two horizontal properties mapped out of four, and two vertical properties mapped out of four.
+Without default values, the primitive cannot draw itself until four out of those eight properties have been mapped.
+
+To complicate things further, knowing which properties to assign defaults to depends on the internal geometric relationships of the primitive.
+The best way to solve this is probably a decision tree that chooses which defaults to assign based on what else has been assigned already.
+The important part of this decision tree structure is how it fits into the internal geometric relationship architecture, and how it gets initiated in the mapping assignment.
+
+Fixing this so that there is always immediate feedback should help the user experience 
+
+\bodysubsubsection{Primitives Graph}
+\label{primitivesGraph}
+The visualization primitives model allows for dependency relationships to occur between the properties of primitives.
+These dependencies are represented through mappings.
+
+Mappings in the current implementation record connections between data output, and a property.
+The system for storing them is simplistic, as each only belongs to the parent primitive.
+There are currently no methods for traversing the structures of mappings that can be created.
+This presents problems with updating child primitives when a parent primitive is modified.
+
+A proper system for storing mappings would allow traversal of the mappings, and prevent circular traversals when a loop is present in the structure.
+The current implementation also means that scaling of values is clumsy when those values come from a parent primitive and not the original data.
+A better structure would allow the properties to retrieve the scale value from the parent and modify it rather than just multiplying their own scale value on top.
+
+This structure will allow for a better interface and more consistent experience with scaling data inputs to properties.
+This should help the user to achieve a flow state by making the interface control behavior more intuitively.
+
+\bodysubsubsection{Connections Between Primitives}
+\label{primConnectionsFW}
+Currently, the interface provides buttons for each visual property that a primitive has, and output buttons that pass the primitive's data through.
+This interface works for testing the model, but it is hardly user-friendly.
+Ideally, the interface should feel much more natural, and have the same feeling of direct connections that come from the implementation's immediate feedback.
+
+As mentioned, one possible way to accomplish that is through using the location of the prototypes relative to each other to help determine the spatial relationships between primitives.
+This type of connection feels physical, and would be relatively intuitive to users.
+However spatial relationships cannot define mappings for properties like color, rotation, or line weight.
+These mappings sill need some sort of input and output interface, and may require things like icon representations or other interface elements to allow their mapping.
+The interactions of connecting abstract visual properties of different objects are new, and there are not many metaphors to the physical world.
+Inspiration for these elements could, however, be drawn from layout or drawing tools.
+
+For example, rotation of an object in many vector drawing programs is accomplished using a handle on the object.
+Perhaps using a similar handle for controlling rotation would improve the intuitiveness of the connection process.
+Unfortunately, interface elements borrowed from drawing tools may not be intuitive for users that are not familiar with them.
+Testing of several different approaches may be necessary to determine what interactions are simplest to grasp and use for most users.
+
+\bodysubsubsection{Set of Primitives}
+\label{setPrimitivesFW}
+The set of primitives provided by the system has the most profound impact on what can be created with the system.
+The current set is definitely not ideal.
+Future tweaking of the set should help to optimize the balance between simplicity and flexibility.
+
+One potential way to proceed with this is to build a list of visualizations that fall within the theoretical constraints of the system (tabular data, non-iterative layouts, etc.)
+Establishing which visualizations in the list cannot be created with the current set of primitives will help to identify possible primitives that should be created.
+It also may be possible to tweak the properties and internal geometric representations of existing primitives to allow the creation of other visualizations.
+
+Identifying which primitives to add, and which to remove (when there is excessive overlap in their capabilities) is the difficult part.
+The best way to achieve this may be to select the primitives that cover the greatest range of visualization techniques that are not possible with the current set.
+By aiming for the best coverage first, corner cases can be identified, and helpful modifications to existing primitives should be easier to find.
+
+Once the list of theoretically possible visualizations can all be created with the implementation, the implementation will be complete.
+This still will not mean that the set of primitives is optimal for a given task, but it does guarantee maximum flexibility of the system.
+
+\bodysubsubsection{Creativity Support}
+\label{creativitySupportFW}
+The initial evaluation of creativity support had several issues.
+Aside from using an earlier version of the CSI, the tutorial teaching people how to use the system probably needed to be enforced better.
+Several people didn't finish the tutorial entirely before exploring on their own and continuing the study.
+This is a minor issue, and easily fixable in the next study.
+
+It would also be good to provide a task for participants to perform.
+The participants of the last study seemed to just play around with the visuals, and not think much about 
+A goal will help to focus people and give them constraints to work within.
+
+The difficulty in this task is finding a goal that strikes a good balance between open ended solutions, and providing focus.
+If the goal is too open ended, it will not serve as a motivator.
+But if the goal is too constrained, there will be a small handful of solutions and no creative solutions will be generated.
+One possible way to alleviate this is to pick a more focused goal, and follow it up with a period of free exploration for users to express their creativity.

@@ -10,8 +10,10 @@ I believe that both problems can be solved by a fresh look at the nature of visu
 I propose a new model for the representation of data in information visualization: visualization primitives.
 Like graphical primitives, visualization primitives are simple geometrical objects that can be combined into more complex ones.
 The model provides easy access to the visual variables that each primitive object has (Figure~\ref{fig:primitive}).
-The visual variables are similar to Bertin's retinal properties~\cite{bertin1983semiology}, and are customized per primitive to match the affordances of the primitive.
+The visual variables are similar to Bertin's retinal variables~\cite{bertin1983semiology}, and are customized per primitive to match the affordances of the primitive.
+For example, a rectangle visualization primitive would provide access to height, width, left side, right side, top, bottom, horizontal midpoint, vertical midpoint, color, lineweight, etc.
 In addition to just the graphical component, however, visualization primitives also connect to data and, in turn, produce output data.
+In the rectangle example, all inputs have corresponding outputs, and outputs are calculated automatically given any input.
 Automatic iteration through the data gives the user an experience of rapid visualization prototyping with immediate visual feedback.
 By designing simple prototypes and applying data to them, users can quickly create many different visualizations in a very short time.
 
@@ -25,9 +27,6 @@ By designing simple prototypes and applying data to them, users can quickly crea
 The goals of this work are as follows.
 On the theory side, I want to develop a new model of visual data representation.
 I believe that current models that are based on pipelines are too limited and do not adequately define the connection between visual appearance and data.
-On the practical side, I believe that this model will translate into tools that will make it easier for non-technical users~-- such as designers, illustrators, and journalists~-- to create new visualizations from scratch.
-Designers are already accustomed to working with graphical objects, and manually change them to represent data.
-Using visualization primitives, they are now able to design prototypes that automatically and immediately represent the data.
-I also believe that this model could benefit the teaching of data visualization concepts.
-By focusing on the essential components of assigning data to visual variables, the model and implementation can help to communicate the core concepts behind InfoVis.
-A conceptual understanding of these core components sets up a good foundation for learning the more complex components of data visualization.
+On the practical side, I believe that this model will translate into tools that better support creativity in the creation of data visualizations.
+By producing interactions similar to design tools that work with graphical objects, visualization primitives will allow users to rapidly iterate with immediate feedback.
+Immediate feedback and direct manipulation are key components of much creativity support software.

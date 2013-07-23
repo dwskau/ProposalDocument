@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{Amabile1996}
+T.~Amabile.
+\newblock {\em {Creativity in Context: Update to the Social Psychology of
+  Creativity}}.
+\newblock Westview Press, 1996.
+
 \bibitem{anderson1957semigraphical}
 E.~Anderson.
 \newblock {A Semigraphical Method for the Analysis of Complex Problems}.
@@ -154,6 +160,12 @@ J.~Talbot, S.~Lin, and P.~Hanrahan.
 B.~Victor.
 \newblock {Drawing Dynamic Visualizations}.
 \newblock http://worrydream.com/\#!/Showreel2012.
+
+\bibitem{viegas2007manyeyes}
+F.~Viegas, M.~Wattenberg, F.~{Van Ham}, J.~Kriss, and M.~McKeon.
+\newblock {Manyeyes: a site for visualization at internet scale}.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics}, pages
+  1121--1128, 2007.
 
 \bibitem{walny2011visual}
 J.~Walny, S.~Carpendale, N.~Henry~Riche, G.~Venolia, and P.~Fawcett.

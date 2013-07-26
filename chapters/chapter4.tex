@@ -11,7 +11,7 @@ Prototypes in the visualization primitives model know what data they get mapped 
 A designer creates prototype primitives, and assigns values to their properties, to generate a visualization.
 Instances are the objects in a visualization; the specifications of an instance come from the prototype and work together with the data to create the form of the visualization.
 
-\bodysubsection{Prototypes}
+\bodysection{Prototypes}
 \label{prototypes}
 
 The concept of visualization primitives is built on a system of primitive shapes and their visual properties.
@@ -34,7 +34,7 @@ The line primitive in our implementation does not include assignments for endpoi
 Instead, we included line chart functionality in the point primitive, however this approach may not be intuitive for the user, and it does not allow for the creation of parallel coordinates.
 Adding endpoints to the line primitive in the future may solve these issues.
 
-\bodysubsection{Visual Properties}
+\bodysection{Visual Properties}
 \label{visualProperties}
 
 Data is represented through visual (or Bertin's \textit{retinal}) properties of the object.
@@ -53,7 +53,7 @@ In addition, assigning one of the properties enables the calculation of the othe
 This supplies the user with an output data source that describes the existing objects.
 That data source can be used as input data for other objects.
 
-\bodysubsubsection{Internal Geometric Relationships}
+\bodysubsection{Internal Geometric Relationships}
 \label{internalGeometricRelationships}
 
 Many visualization primitives have these internal geometric relationships between their properties.
@@ -66,7 +66,7 @@ The implementations of the model should closely align the visual properties with
 For example, a point is more intuitively positioned from its center, rather than a corner of its bounding box.
 The user of the system decides what data is mapped to what property, but the creator of the system decides what properties are available.
 
-\bodysubsection{Iteration}
+\bodysection{Iteration}
 \label{iteration}
 
 We want the user to design a prototype object, not an algorithm.
@@ -77,10 +77,10 @@ In visualization primitives we use implicit loops to allow the user to design a 
 The core concepts of the information visualization model (one data point translates to one visual object) means that implicit iteration is something that can be done in every case.
 This iteration is built into the primitives and repeats for every item of data.
 The scaling and internal geometric relationships are calculated during the iteration, and the resulting data is stored in the primitive.
-Implicit iteration along with mappings are the key to allowing an object-oriented prototype design strategy.
+Implicit iteration along with mappings are the key to allowing a prototype design strategy.
 Together they turn a prototype primitive into the repeated instances of primitives in the visualization.
 
-\bodysubsection{Data}
+\bodysection{Data}
 \label{data}
 
 Since iteration handles the assignment of the individual data values to each instance, in the interface for the user, our data can be reduced to fields.
@@ -95,7 +95,7 @@ We provide two fields of administrative data.
 Intervals provide values that count up by the specified scale value for each data item (Scale:1 Data: [0, 1, 2, 3...]).
 Constants provide the same value specified by the scale value for each data item (Scale: 1 Data: [1, 1, 1, 1...]).
 
-\bodysubsubsection{Mappings}
+\bodysubsection{Mappings}
 \label{mappings}
 
 Since instances of the primitive in the visualization are not designed individually, it is necessary for there to be a way to abstractly assign data to a prototype primitive's properties.
@@ -103,7 +103,7 @@ Mappings provide this abstract connection.
 Each property knows its data source, and a scaling factor.
 The primitive uses this information in the generation of its own data.
 
-\bodysubsubsection{Connections}
+\bodysubsection{Connections}
 \label{connections}
 
 Since primitives store their own sets of data, they can also be used as sources of data.
@@ -131,7 +131,7 @@ In some interface implementations, it is conceivable that this connection could 
 For example, placing the left side of one prototype next to the right side of another prototype could trigger a connection between the respective data and property of the primitives.
 This visual method of defining connections only works for some spatial relationships. Relationships between color, line weight, or other more abstract spatial properties (area for example) would have to be defined using another interface.
 
-\bodysubsection{Axes and Layout}
+\bodysection{Axes and Layout}
 \label{axesLayout}
 
 Spatial layout is an important aspect of visualization design.

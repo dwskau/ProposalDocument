@@ -20,7 +20,7 @@ Not all the results that participants created and submitted were strictly visual
 The considerable time spent on the site shows that they were engaged and interested in exploration, despite the user interface flaws.
 This suggests that tapping into users' creativity is a promising way of getting them interested in visualization.
 
-\bodysubsection{Lessons Learned}
+\bodysection{Lessons Learned}
 \label{lessonsLearned}
 
 This experiment was very obviously flawed in many ways, however it revealed to me that there were many components of visualization primitives that need work.
@@ -42,12 +42,12 @@ A panel of three to five judges will be able to rate the creativity of what is c
 
 Another change that should be made to the study is the participant selection. The shotgun approach of attracting random participants on the internet is likely partially responsible for the extremely low completion rate of the study. It also means that many participants were not as familiar with the concept of visualization, so their produced results were more like data art than visualization. Manually recruiting participants can help to constrain the group to individuals who are aware of things like Bertin's hierarchy of retinal variables~\cite{bertin1983semiology}. This will increase the likelihood that their visualizations will be useful for a task.
 
-\bodysubsection{Interface Improvements}
+\bodysection{Interface Improvements}
 \label{interfaceImprovements}
 The visualization primitives model has proven to be effective at some things, however there are still limitations due to the implementation.
 The areas that could result in the most striking improvements in creativity support deal with the interface, and are needed mostly to help users achieve a flow state.
 
-\bodysubsubsection{Default Values}
+\bodysubsection{Default Values}
 \label{defaultValues}
 In the current implementation, there are no default values assigned to any of the properties.
 This results in there being no feedback to the user when they map properties that require multiple other properties to also be mapped.
@@ -61,7 +61,7 @@ The important part of this decision tree structure is how it fits into the inter
 
 Fixing this so that there is always immediate feedback should help the user experience 
 
-\bodysubsubsection{Primitives Graph}
+\bodysubsection{Primitives Graph}
 \label{primitivesGraph}
 The visualization primitives model allows for dependency relationships to occur between the properties of primitives.
 These dependencies are represented through mappings.
@@ -78,7 +78,7 @@ A better structure would allow the properties to retrieve the scale value from t
 This structure will allow for a better interface and more consistent experience with scaling data inputs to properties.
 This should help the user to achieve a flow state by making the interface control behavior more intuitively.
 
-\bodysubsubsection{Connections Between Primitives}
+\bodysubsection{Connections Between Primitives}
 \label{primConnectionsFW}
 Currently, the interface provides buttons for each visual property that a primitive has, and output buttons that pass the primitive's data through.
 This interface works for testing the model, but it is hardly user-friendly.
@@ -96,7 +96,7 @@ Perhaps using a similar handle for controlling rotation would improve the intuit
 Unfortunately, interface elements borrowed from drawing tools may not be intuitive for users that are not familiar with them.
 Testing of several different approaches may be necessary to determine what interactions are simplest to grasp and use for most users.
 
-\bodysubsubsection{Set of Primitives}
+\bodysubsection{Set of Primitives}
 \label{setPrimitivesFW}
 The set of primitives provided by the system has the most profound impact on what can be created with the system.
 The current set is definitely not ideal.
@@ -113,7 +113,7 @@ By aiming for the best coverage first, corner cases can be identified, and helpf
 Once the list of theoretically possible visualizations can all be created with the implementation, the implementation will be complete.
 This still will not mean that the set of primitives is optimal for a given task, but it does guarantee maximum flexibility of the system.
 
-\bodysubsubsection{Creativity Support}
+\bodysubsection{Creativity Support}
 \label{creativitySupportFW}
 The initial evaluation of creativity support had several issues.
 Aside from using an earlier version of the CSI, the tutorial teaching people how to use the system probably needed to be enforced better.

@@ -2,44 +2,44 @@
 \BOOKMARK [0][-]{section*.1}{LIST OF TABLES}{}
 \BOOKMARK [0][-]{bodychapter.1}{INTRODUCTION}{}
 \BOOKMARK [0][-]{bodychapter.2}{RELATED WORK}{}
-\BOOKMARK [0][-]{bodysubsection.1}{Theory}{}
-\BOOKMARK [0][-]{bodysubsection.2}{Tools}{}
-\BOOKMARK [0][-]{bodysubsection.3}{Creativity Support}{}
+\BOOKMARK [0][-]{bodysection.1}{Theory}{}
+\BOOKMARK [0][-]{bodysection.2}{Tools}{}
+\BOOKMARK [0][-]{bodysection.3}{Creativity Support}{}
 \BOOKMARK [0][-]{bodychapter.3}{COGNITIVE MOTIVATION}{}
-\BOOKMARK [0][-]{bodysubsection.1}{The Information Visualization Model}{}
-\BOOKMARK [0][-]{bodysubsection.2}{Cognitive Models}{}
+\BOOKMARK [0][-]{bodysection.1}{The Information Visualization Model}{}
+\BOOKMARK [0][-]{bodysection.2}{Cognitive Models}{}
 \BOOKMARK [0][-]{bodychapter.4}{VISUALIZATION PRIMITIVES}{}
-\BOOKMARK [0][-]{bodysubsection.1}{Prototypes}{}
-\BOOKMARK [0][-]{bodysubsection.2}{Visual Properties}{}
-\BOOKMARK [0][-]{bodysubsubsection.1}{Internal Geometric Relationships}{}
-\BOOKMARK [0][-]{bodysubsection.3}{Iteration}{}
-\BOOKMARK [0][-]{bodysubsection.4}{Data}{}
-\BOOKMARK [0][-]{bodysubsubsection.1}{Mappings}{}
-\BOOKMARK [0][-]{bodysubsubsection.2}{Connections}{}
-\BOOKMARK [0][-]{bodysubsection.5}{Axes and Layout}{}
+\BOOKMARK [0][-]{bodysection.1}{Prototypes}{}
+\BOOKMARK [0][-]{bodysection.2}{Visual Properties}{}
+\BOOKMARK [0][-]{bodysubsection.1}{Internal Geometric Relationships}{}
+\BOOKMARK [0][-]{bodysection.3}{Iteration}{}
+\BOOKMARK [0][-]{bodysection.4}{Data}{}
+\BOOKMARK [0][-]{bodysubsection.1}{Mappings}{}
+\BOOKMARK [0][-]{bodysubsection.2}{Connections}{}
+\BOOKMARK [0][-]{bodysection.5}{Axes and Layout}{}
 \BOOKMARK [0][-]{bodychapter.5}{EXAMPLES}{}
-\BOOKMARK [0][-]{bodysubsection.1}{Bar Chart}{}
-\BOOKMARK [0][-]{bodysubsection.2}{Scatterplot}{}
-\BOOKMARK [0][-]{bodysubsection.3}{Line Chart}{}
-\BOOKMARK [0][-]{bodysubsection.4}{Heat Maps}{}
-\BOOKMARK [0][-]{bodysubsection.5}{Waterfall Chart}{}
-\BOOKMARK [0][-]{bodysubsection.6}{Glyphs}{}
+\BOOKMARK [0][-]{bodysection.1}{Bar Chart}{}
+\BOOKMARK [0][-]{bodysection.2}{Scatterplot}{}
+\BOOKMARK [0][-]{bodysection.3}{Line Chart}{}
+\BOOKMARK [0][-]{bodysection.4}{Heat Maps}{}
+\BOOKMARK [0][-]{bodysection.5}{Waterfall Chart}{}
+\BOOKMARK [0][-]{bodysection.6}{Glyphs}{}
 \BOOKMARK [0][-]{bodychapter.6}{EXPERIMENT}{}
-\BOOKMARK [0][-]{bodysubsection.1}{Materials}{}
-\BOOKMARK [0][-]{bodysubsection.2}{Procedure}{}
-\BOOKMARK [0][-]{bodysubsection.3}{Results}{}
-\BOOKMARK [0][-]{bodysubsubsection.1}{Experience and Creativity Support}{}
-\BOOKMARK [0][-]{bodysubsubsection.2}{Experience and Productivity}{}
-\BOOKMARK [0][-]{bodysubsubsection.3}{General CSI Results}{}
-\BOOKMARK [0][-]{bodysubsubsection.4}{Example Visualizations}{}
+\BOOKMARK [0][-]{bodysection.1}{Materials}{}
+\BOOKMARK [0][-]{bodysection.2}{Procedure}{}
+\BOOKMARK [0][-]{bodysection.3}{Results}{}
+\BOOKMARK [0][-]{bodysubsection.1}{Experience and Creativity Support}{}
+\BOOKMARK [0][-]{bodysubsection.2}{Experience and Productivity}{}
+\BOOKMARK [0][-]{bodysubsection.3}{General CSI Results}{}
+\BOOKMARK [0][-]{bodysubsection.4}{Example Visualizations}{}
 \BOOKMARK [0][-]{bodychapter.7}{DISCUSSION}{}
-\BOOKMARK [0][-]{bodysubsection.1}{Lessons Learned}{}
-\BOOKMARK [0][-]{bodysubsection.2}{Interface Improvements}{}
-\BOOKMARK [0][-]{bodysubsubsection.1}{Default Values}{}
-\BOOKMARK [0][-]{bodysubsubsection.2}{Primitives Graph}{}
-\BOOKMARK [0][-]{bodysubsubsection.3}{Connections Between Primitives}{}
-\BOOKMARK [0][-]{bodysubsubsection.4}{Set of Primitives}{}
-\BOOKMARK [0][-]{bodysubsubsection.5}{Creativity Support}{}
+\BOOKMARK [0][-]{bodysection.1}{Lessons Learned}{}
+\BOOKMARK [0][-]{bodysection.2}{Interface Improvements}{}
+\BOOKMARK [0][-]{bodysubsection.1}{Default Values}{}
+\BOOKMARK [0][-]{bodysubsection.2}{Primitives Graph}{}
+\BOOKMARK [0][-]{bodysubsection.3}{Connections Between Primitives}{}
+\BOOKMARK [0][-]{bodysubsection.4}{Set of Primitives}{}
+\BOOKMARK [0][-]{bodysubsection.5}{Creativity Support}{}
 \BOOKMARK [0][-]{bodychapter.8}{FUTURE WORK}{}
 \BOOKMARK [0][-]{bodychapter.9}{CONCLUSION}{}
 \BOOKMARK [0][-]{bodychapter.9}{REFERENCES}{}

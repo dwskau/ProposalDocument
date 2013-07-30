@@ -31,6 +31,7 @@ For example, the idea that a pie chart is nothing but a stacked bar chart that h
 Visualization primitives are an extension of glyphs~\cite{anderson1957semigraphical}, which are graphical objects whose properties (lengths of parts, angles, colors) represent data.
 Glyphs are typically used to show small numbers of high-dimensional data points, but we argue that the idea can be applied in a much more general way.
 Tools for constructing glyphs~\cite{ribarsky1994glyphmaker} have been proposed, but tend to be driven by form-based interfaces and limited in the scope of available properties and ways of combining them into more complex (and ``traditional'') visualizations.
+Glyphs are a technique ripe for creativity because of their propensity for semantically meaningful forms, but the established approaches limit creativity by constraining the possible results to a pre-determined set.
 
 \bodysection{Tools}
 \label{tools}
@@ -55,13 +56,18 @@ On the other side of the spectrum, there are tools that allow users without prog
 Many Eyes~\cite{viegas2007manyeyes}, Excel, Adobe Illustrator, Tableau, all allow users to create data visualizations through simple input of data.
 Unfortunately, the visualizations that these tools produce have all been predefined by the tool creator.
 They each have a set number of visualizations types that they can create.
-This constrains users from creating new visualizations, and possibly embedding domain knowledge or exposing new relationships within the visualization.
+This constrains users from creating new visualizations and possibly embedding domain knowledge or exposing new relationships within the visualization.
+Adobe Illustrator does technically allow creative freedom, however the process is entirely manual, and certainly does not support any sort of flow state for data visualization creation.
+These creativity constraints are inherent to the approach each of these tools takes, so a new approach is necessary to provide support for creativity.
 
 \bodysection{Creativity Support}
 \label{creativitySupport}
 
-There has not been a wide array of work exploring creativity in the creation of information visualizations, however some work does still involve creativity.
-In the visual analytics space, it is widely acknowledged that creativity plays a role in the visual analytics workflow.~\cite{scholtz2006beyond}%todo: find more references to creativity in visual analytics
+There have been so many improvements in the computing world Since Alan Kay's early work~\cite{Kay1972, Goldberg1977} suggesting computers could teach kids and support their creativity.
+Computer software we use every day supports creativity in many different disciplines, ranging from music, to literature, to the visual arts.
+Unfortunately, there has still not been a wide array of work exploring creativity in the creation of information visualizations, however some work in visualization does still involve creativity.
+In the visual analytics space, it has been noted that creativity plays a role in the visual analytics workflow~\cite{scholtz2006beyond}, however this creativity lies more on the analysis and data side than on the visualization creation and development side.
+
 Lee et al.~\cite{lee2012beyond} have done some work investigating interaction with visualizations beyond keyboard and mouse.
 Their design considerations very closely parallel design guidelines for supporting creativity.
 Other significant work by Walny et al.~\cite{walny2011visual} explores visualization creation on whiteboards.
@@ -79,4 +85,3 @@ The Creativity Support Index (CSI)~\cite{carroll2009creativity} provides a syste
 It uses a set of six factors, ranked with Likert scales, followed by a set of fifteen ranked pairs to prioritize the factors.
 The results of the index are a value out of 100, with 100 supporting creativity perfectly.
 (For more on the CSI, refer to section~\ref{materials}.)
-

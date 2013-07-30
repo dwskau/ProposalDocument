@@ -1,5 +1,5 @@
-\contentsline {bodychapter}{LIST OF FIGURES}{vi}{section*.1}
-\contentsline {bodychapter}{LIST OF TABLES}{viii}{section*.1}
+\contentsline {bodychapter}{LIST OF FIGURES}{vii}{section*.1}
+\contentsline {bodychapter}{LIST OF TABLES}{ix}{section*.1}
 \contentsline {bodychapter}{\numberline {1}INTRODUCTION}{1}{bodychapter.1}
 \contentsline {bodychapter}{\numberline {2}RELATED WORK}{3}{bodychapter.2}
 \contentsline {bodysection}{\numberline {2.1}Theory}{3}{bodysection.1}

@@ -2,44 +2,44 @@ This is BibTeX, Version 0.99c (TeX Live 2009)
 The top-level auxiliary file: dissertation.aux
 The style file: abbrv.bst
 Database file #1: dissertation.bib
-You've used 34 entries,
+You've used 35 entries,
             2118 wiz_defined-function locations,
-            713 strings with 9036 characters,
-and the built_in function-call counts, 11536 in all, are:
-= -- 1169
-> -- 482
-< -- 9
-+ -- 192
-- -- 157
-* -- 782
-:= -- 1881
-add.period$ -- 106
-call.type$ -- 34
-change.case$ -- 177
+            719 strings with 9207 characters,
+and the built_in function-call counts, 11951 in all, are:
+= -- 1213
+> -- 489
+< -- 10
++ -- 195
+- -- 159
+* -- 802
+:= -- 1936
+add.period$ -- 109
+call.type$ -- 35
+change.case$ -- 181
 chr.to.int$ -- 0
-cite$ -- 34
-duplicate$ -- 447
-empty$ -- 933
-format.name$ -- 157
-if$ -- 2440
+cite$ -- 35
+duplicate$ -- 470
+empty$ -- 974
+format.name$ -- 159
+if$ -- 2539
 int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 34
-newline$ -- 173
-num.names$ -- 70
-pop$ -- 188
+int.to.str$ -- 35
+missing$ -- 35
+newline$ -- 178
+num.names$ -- 72
+pop$ -- 195
 preamble$ -- 1
-purify$ -- 146
+purify$ -- 149
 quote$ -- 0
-skip$ -- 327
+skip$ -- 347
 stack$ -- 0
-substring$ -- 791
-swap$ -- 104
-text.length$ -- 9
+substring$ -- 828
+swap$ -- 115
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 128
+type$ -- 132
 warning$ -- 0
-while$ -- 123
-width$ -- 36
-write$ -- 372
+while$ -- 128
+width$ -- 37
+write$ -- 383

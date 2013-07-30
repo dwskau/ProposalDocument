@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  25 JUL 2013 17:56
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  30 JUL 2013 08:41
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -607,11 +607,11 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 138.
  [2] [3]
-(./dissertation.toc [4])
+(./dissertation.toc [4] [5])
 \tf@toc=\write5
 \openout5 = `dissertation.toc'.
 
- [5]
+ [6]
 
 Package hyperref Warning: No destination for bookmark of \addcontentsline,
 (hyperref)                destination is added on input line 149.
@@ -626,15 +626,15 @@ Overfull \hbox (1.79306pt too wide) in paragraph at lines 14--14
 ion of Vi-su-al-iza-tion Primitives.| 
  []
 
-[6])
+[7])
 \tf@lof=\write6
 \openout6 = `dissertation.lof'.
 
- [7] (./dissertation.lot)
+ [8] (./dissertation.lot)
 \tf@lot=\write7
 \openout7 = `dissertation.lot'.
 
- [8] (./chapters/chapter1.tex
+ [9] (./chapters/chapter1.tex
 Overfull \hbox (19.42174pt too wide) in paragraph at lines 4--9
 []\OT1/ptm/m/n/12 Creating new types of vi-su-al-iza-tion in-vari-ably re-quire
 s pro-gram-ming. Tools like Tableau [[]]
@@ -646,7 +646,7 @@ s pro-gram-ming. Tools like Tableau [[]]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/primitive.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<images/primitive.pdf, id=281, 343.48825pt x 120.52226pt>
+<images/primitive.pdf, id=297, 343.48825pt x 120.52226pt>
 File: images/primitive.pdf Graphic file (type pdf)
 
 <use images/primitive.pdf>) (./chapters/chapter2.tex [2 <./images/primitive.pdf
@@ -665,8 +665,10 @@ i-su-al-iza-tion of dis-crete data points [[]].
 
 ] [4] [5]
 
-LaTeX Warning: Citation `scholtz2006beyond' on page 6 undefined on input line 6
-4.
+LaTeX Warning: Citation `Kay1972' on page 6 undefined on input line 66.
+
+
+LaTeX Warning: Citation `Goldberg1977' on page 6 undefined on input line 66.
 
 [6]) (./chapters/chapter3.tex [7]pdfTeX warning (ext4): destination with the sa
 me identifier (name{bodysection.1}) has been already used, duplicate ignored
@@ -710,14 +712,14 @@ me identifier (name{bodysubsection.1}) has been already used, duplicate ignored
                    \relax 
 l.98 \bodysubsection{Mappings}
                                [15]
-<images/vieVisu.png, id=595, 981.6675pt x 727.71875pt>
+<images/vieVisu.png, id=609, 981.6675pt x 727.71875pt>
 File: images/vieVisu.png Graphic file (type png)
 
 <use images/vieVisu.png> [16]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/layout.pdf): PDF inclusion:
  found PDF version <1.5>, but at most version <1.4> allowed
-<images/layout.pdf, id=602, 343.48825pt x 120.52226pt>
+<images/layout.pdf, id=617, 343.48825pt x 120.52226pt>
 File: images/layout.pdf Graphic file (type pdf)
  <use images/layout.pdf>
 [17 <./images/vieVisu.png (PNG copy)>]) (./chapters/chapter5.tex [18 <./images/
@@ -727,7 +729,7 @@ layout.pdf>] [19
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/interface.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<images/interface.pdf, id=806, 560.63652pt x 296.02094pt>
+<images/interface.pdf, id=819, 560.63652pt x 296.02094pt>
 File: images/interface.pdf Graphic file (type pdf)
 
 <use images/interface.pdf>pdfTeX warning (ext4): destination with the same iden
@@ -739,14 +741,14 @@ l.36 \bodysection{Bar Chart}
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/stackedBar.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/stackedBar.pdf, id=1032, 491.8375pt x 468.75125pt>
+<images/stackedBar.pdf, id=1045, 491.8375pt x 468.75125pt>
 File: images/stackedBar.pdf Graphic file (type pdf)
 
 <use images/stackedBar.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/groupedBar.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/groupedBar.pdf, id=1034, 491.8375pt x 468.75125pt>
+<images/groupedBar.pdf, id=1047, 491.8375pt x 468.75125pt>
 File: images/groupedBar.pdf Graphic file (type pdf)
 
 <use images/groupedBar.pdf>pdfTeX warning (ext4): destination with the same ide
@@ -759,7 +761,7 @@ ar.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/scatterplot.pdf): PDF inclu
 sion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/scatterplot.pdf, id=1568, 1084.68237pt x 266.1443pt>
+<images/scatterplot.pdf, id=1581, 1084.68237pt x 266.1443pt>
 File: images/scatterplot.pdf Graphic file (type pdf)
 
 <use images/scatterplot.pdf>pdfTeX warning (ext4): destination with the same id
@@ -771,7 +773,7 @@ l.100 \bodysection{Line Chart}
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/lineChart.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<images/lineChart.pdf, id=2481, 1084.68237pt x 266.1443pt>
+<images/lineChart.pdf, id=2495, 1084.68237pt x 266.1443pt>
 File: images/lineChart.pdf Graphic file (type pdf)
 
 <use images/lineChart.pdf>pdfTeX warning (ext4): destination with the same iden
@@ -783,7 +785,7 @@ l.133 \bodysection{Heat Maps}
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/heatMap.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<images/heatMap.pdf, id=2485, 650.43pt x 670.505pt>
+<images/heatMap.pdf, id=2499, 650.43pt x 670.505pt>
 File: images/heatMap.pdf Graphic file (type pdf)
  <use images/heatMap.pdf>
 [23]pdfTeX warning (ext4): destination with the same identifier (name{bodysecti
@@ -795,14 +797,14 @@ l.152 \bodysection{Waterfall Chart}
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/presidents.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/presidents.pdf, id=2494, 1245.00128pt x 736.7525pt>
+<images/presidents.pdf, id=2507, 1245.00128pt x 736.7525pt>
 File: images/presidents.pdf Graphic file (type pdf)
 
 <use images/presidents.pdf> [24 <./images/lineChart.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/cars.pdf): PDF inclusion: f
 ound PDF version <1.5>, but at most version <1.4> allowed
-<images/cars.pdf, id=2621, 672.80559pt x 754.82pt>
+<images/cars.pdf, id=2634, 672.80559pt x 754.82pt>
 File: images/cars.pdf Graphic file (type pdf)
  <use images/cars.pdf>
 [25 <./images/heatMap.pdf>]) (./chapters/chapter6.tex [26 <./images/presidents.
@@ -838,7 +840,7 @@ o the URL [][]$\OT1/cmtt/m/n/12 http : / / visualizationprimitives .
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/tutorialResult.pdf): PDF in
 clusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/tutorialResult.pdf, id=21456, 631.25435pt x 108.9912pt>
+<images/tutorialResult.pdf, id=21468, 631.25435pt x 108.9912pt>
 File: images/tutorialResult.pdf Graphic file (type pdf)
 
 <use images/tutorialResult.pdf> [32 <./images/tutorialResult.pdf>]pdfTeX warnin
@@ -851,42 +853,42 @@ l.115 \bodysection{Results}
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/collaboration.pd
 f): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/histograms/collaboration.pdf, id=21618, 250.43562pt x 264.98898pt>
+<images/histograms/collaboration.pdf, id=21630, 250.43562pt x 264.98898pt>
 File: images/histograms/collaboration.pdf Graphic file (type pdf)
 
 <use images/histograms/collaboration.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/engagement.pdf):
  PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/histograms/engagement.pdf, id=21620, 250.43562pt x 264.98898pt>
+<images/histograms/engagement.pdf, id=21632, 250.43562pt x 264.98898pt>
 File: images/histograms/engagement.pdf Graphic file (type pdf)
 
 <use images/histograms/engagement.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/exploration.pdf)
 : PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/histograms/exploration.pdf, id=21622, 250.43562pt x 264.98898pt>
+<images/histograms/exploration.pdf, id=21634, 250.43562pt x 264.98898pt>
 File: images/histograms/exploration.pdf Graphic file (type pdf)
 
 <use images/histograms/exploration.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/expressiveness.p
 df): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/histograms/expressiveness.pdf, id=21624, 250.43562pt x 264.98898pt>
+<images/histograms/expressiveness.pdf, id=21636, 250.43562pt x 264.98898pt>
 File: images/histograms/expressiveness.pdf Graphic file (type pdf)
 
 <use images/histograms/expressiveness.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/tradeoff.pdf): P
 DF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/histograms/tradeoff.pdf, id=21626, 250.43562pt x 264.98898pt>
+<images/histograms/tradeoff.pdf, id=21638, 250.43562pt x 264.98898pt>
 File: images/histograms/tradeoff.pdf Graphic file (type pdf)
 
 <use images/histograms/tradeoff.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/histograms/transparency.pdf
 ): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/histograms/transparency.pdf, id=21628, 250.43562pt x 264.98898pt>
+<images/histograms/transparency.pdf, id=21640, 250.43562pt x 264.98898pt>
 File: images/histograms/transparency.pdf Graphic file (type pdf)
 
 <use images/histograms/transparency.pdf>pdfTeX warning (ext4): destination with
@@ -1032,7 +1034,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-lCMWzs3C-77-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-lCMWzs3C-77-auto2.pdf, id=21632, 581.22847pt x 414.30583pt>
+<images/gallery/svg-lCMWzs3C-77-auto2.pdf, id=21644, 581.22847pt x 414.30583pt>
 File: images/gallery/svg-lCMWzs3C-77-auto2.pdf Graphic file (type pdf)
 <use images/gallery/svg-lCMWzs3C-77-auto2.pdf>
 
@@ -1040,7 +1042,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-iBaorUUg-69-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-iBaorUUg-69-auto2.pdf, id=21634, 105.95886pt x 99.93295pt>
+<images/gallery/svg-iBaorUUg-69-auto2.pdf, id=21646, 105.95886pt x 99.93295pt>
 File: images/gallery/svg-iBaorUUg-69-auto2.pdf Graphic file (type pdf)
 
 <use images/gallery/svg-iBaorUUg-69-auto2.pdf>
@@ -1049,14 +1051,14 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-HKI5oDTV-30-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-HKI5oDTV-30-auto2.pdf, id=21636, 445.00754pt x 115.51758pt>
+<images/gallery/svg-HKI5oDTV-30-auto2.pdf, id=21648, 445.00754pt x 115.51758pt>
 File: images/gallery/svg-HKI5oDTV-30-auto2.pdf Graphic file (type pdf)
 <use images/gallery/svg-HKI5oDTV-30-auto2.pdf>
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-kJfnjNbc-4-auto
 2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
-<images/gallery/svg-kJfnjNbc-4-auto2.pdf, id=21638, 669.4009pt x 54.23532pt>
+<images/gallery/svg-kJfnjNbc-4-auto2.pdf, id=21650, 669.4009pt x 54.23532pt>
 File: images/gallery/svg-kJfnjNbc-4-auto2.pdf Graphic file (type pdf)
 
 <use images/gallery/svg-kJfnjNbc-4-auto2.pdf>
@@ -1065,7 +1067,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-lCMWzs3C-26-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-lCMWzs3C-26-auto2.pdf, id=21640, 512.36116pt x 71.45245pt>
+<images/gallery/svg-lCMWzs3C-26-auto2.pdf, id=21652, 512.36116pt x 71.45245pt>
 File: images/gallery/svg-lCMWzs3C-26-auto2.pdf Graphic file (type pdf)
 
 <use images/gallery/svg-lCMWzs3C-26-auto2.pdf>
@@ -1074,7 +1076,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-UBDlMBE2-29-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-UBDlMBE2-29-auto2.pdf, id=21642, 585.06078pt x 137.05405pt>
+<images/gallery/svg-UBDlMBE2-29-auto2.pdf, id=21654, 585.06078pt x 137.05405pt>
 File: images/gallery/svg-UBDlMBE2-29-auto2.pdf Graphic file (type pdf)
 <use images/gallery/svg-UBDlMBE2-29-auto2.pdf>
 
@@ -1082,7 +1084,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-47GM6Lk3-87-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-47GM6Lk3-87-auto2.pdf, id=21644, 441.40108pt x 532.2595pt>
+<images/gallery/svg-47GM6Lk3-87-auto2.pdf, id=21656, 441.40108pt x 532.2595pt>
 File: images/gallery/svg-47GM6Lk3-87-auto2.pdf Graphic file (type pdf)
 
 <use images/gallery/svg-47GM6Lk3-87-auto2.pdf>
@@ -1091,7 +1093,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./images/gallery/svg-47GM6Lk3-61-aut
 o2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
 
-<images/gallery/svg-47GM6Lk3-61-auto2.pdf, id=21647, 402.71153pt x 531.67334pt>
+<images/gallery/svg-47GM6Lk3-61-auto2.pdf, id=21659, 402.71153pt x 531.67334pt>
 File: images/gallery/svg-47GM6Lk3-61-auto2.pdf Graphic file (type pdf)
 <use images/gallery/svg-47GM6Lk3-61-auto2.pdf> [34 <./images/histograms/collabo
 ration.pdf> <./images/histograms/engagement.pdf> <./images/histograms/explorati
@@ -1155,7 +1157,7 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--163
+Underfull \hbox (badness 10000) in paragraph at lines 167--170
 []\OT1/ptm/m/n/12 B. Vic-tor.  Draw-ing Dy-namic Vi-su-al-iza-tions.
  []
 
@@ -1163,47 +1165,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--163
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 9895 strings out of 493848
- 143073 string characters out of 3149207
- 252403 words of memory out of 3000000
- 12740 multiletter control sequences out of 15000+200000
+ 9893 strings out of 493848
+ 142981 string characters out of 3149207
+ 252278 words of memory out of 3000000
+ 12742 multiletter control sequences out of 15000+200000
  22726 words of font info for 55 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  53i,8n,92p,730b,447s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{bodysubsubsection.5} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{bodysubsubsection.4} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{bodysubsubsection.3} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{bodysubsection.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{bodysubsubsection.2} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{bodysubsubsection.1} has been referenced but does n
-ot exist, replaced by a fixed one
-
-{/usr/local/texlive/2009/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
-ive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
-e/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/
-2009/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2009/texmf
--dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/texmf-dist/font
-s/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (60 pages, 10115027 bytes).
+{/usr/local/texlive/2009/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texliv
+e/2009/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2009/tex
+mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/texmf-dist/fo
+nts/type1/urw/times/utmri8a.pfb>
+Output written on dissertation.pdf (61 pages, 10119888 bytes).
 PDF statistics:
- 24019 PDF objects out of 26593 (max. 8388607)
- 152 named destinations out of 1000 (max. 500000)
+ 24031 PDF objects out of 26593 (max. 8388607)
+ 148 named destinations out of 1000 (max. 500000)
  491 words of extra memory for PDF output out of 10000 (max. 10000000)
 
